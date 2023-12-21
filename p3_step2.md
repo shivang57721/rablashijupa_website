@@ -101,8 +101,6 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 While doing our analysis, we noticed that South Korea tends to stand aside in certain subtopics. In contrast to other countries,  South Korea shows less interest for “Entertainment”, “Films” and “Media” during the pandemic  according to our analysis. Taking into account that South Korea didn’t have much of an “imposed” lockdown, it would make sense that the population tried to focus as much as possible on their work during what was an “uncertain time”, thus it would explain their interest deccrease in these categories.
 While all other countries perceived an increase in these categories, as they seeked for entertainment during the pandemic and the lockdown.
 
-PLOT OF KOREA
-
 I want to see the decrease for the following topic : <label for="map_select"></label>
 <select id="korea_selection" name="registration">
     <option value = "select_region" selected="selected"> ---Select--- </option>
@@ -130,8 +128,6 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 # Consistency in Country Clusters Based on Browsing Patterns Pre and Post-COVID
 
 We also implemented clusters based on the countries' browsing patterns pre and post-covid and their Hofstede score in the different cultaural aspects. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remained the same.
-
-PLOT OF CLUSTERS PRE/POST COVID FOR EVERY CULTURAL ASPECT
 
 
 I want to see the clusters for the following cultural aspect before COVID : <label for="map_select"></label>
