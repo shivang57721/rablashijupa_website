@@ -2,14 +2,14 @@
 layout: default
 ---
 <p align='center'>
-    <img src="hello.png" />
+    <img src="proportion.png" />
 </p>
 
 I want to see specific details for <label for="map_selection"></label>
 <select id="map_selection" name="registration">
     <option value="select_region" selected="selected">---Select---</option>
-    <option value="map1">Europe</option>
-    <option value="map2">East Asia</option>
+    <option value="map1">option1</option>
+    <option value="map2">option2/option>
 </select>
 
 <p id='image1' align='center' style="display: none;">
