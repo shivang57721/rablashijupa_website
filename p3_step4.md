@@ -5,197 +5,230 @@ layout: default
 
 Before diving into the analysis of th cultural interests, it would be interesting to get a more global overview of our data. 
 
-First of all, it would be interesting to be able to visualize the proportion of each subject for each language, using a stacked bar plot:
-<include proportion plot>
+# Proportion of page views by language
+
+First of all, let's visualize the proportion of each subject for each language, using a stacked bar plot:
+
+<p align='center'>
+<img src="images/proportions.png" />
+</p>
+
+ <br>
+
+As they are many topics, this plot is hardly readable. We thus mapped the sub-topics into more general topics : 
+- STEM (Science, Technology, Engineering, and Mathematics)
+- History & Society
+- Geography
+- Culture
+
+<p align='center'>
+<img src="images/proportions.png" />
+</p>
+
+ <br>
+
+ The proportion of pageviews for topics related to Culture or Geography is way more important than the proportion of pageviews for topics related to History & Society or Culture. This is overally true for all the languages studied. So we'll need to highlight the differences in sub-topics pageview trends between countries using other methods.
 
 When decomposing seasonally pageview patterns all topics combined, what strikes the most is that there are some weekly patterns in Wikipedia peageviews, for both mobile and desktop data:
-<include plot step5> 
-Over the whole period, except for Turkey and Italy, the global Wikipedia usage has remained steady
-
-
-Let's study Wikepedia pageview statistics according to the device used, whether desktop or mobile. For each of the topics, the following plots summarize the general statisitics: 
 
 <html>
 Plese select a country to display the details :
-<label for="registration_select_country"></label>
-<select id="registration_selection_country" name="registration_country">
+<label for="seasonality_select_country"></label>
+<select id="seasonality_selection_country" name="seasonality_country">
     <option value = "select country" selected="selected_country"> ---Select--- </option>
-    <option value = "Sweden">Sweden</option>
-    <option value = "Denmark">Denmark</option>
-    <option value = "Italy">Italy</option>
-    <option value = "Norway">Norway</option>
-    <option value = "Germany">Germany</option>
-    <option value = "Japan">Japan</option>
-    <option value = "Netherlands">Netherlands</option>
-    <option value = "Finland">Finland</option>
-    <option value = "Catalonia">Catalonia</option>
-    <option value = "Turkey">Turkey</option>
-    <option value = "Weighted average">Weighted average</option>
+    <option value = "Catalonia (Desktop)">Catalonia_Desktop</option>
+    <option value = "Catalonia (Mobile)">Catalonia_Mobile</option>
+    <option value = "Denmark (Desktop)">Denmark_Desktop</option>
+    <option value = "Denmark (Mobile)">Denmark_Mobile</option>
+    <option value = "Finland (Desktop)">Finland_Desktop</option>
+    <option value = "Finland (Mobile)">Finland_Mobile</option>
+    <option value = "Germany (Desktop)">Germany_Desktop</option>
+    <option value = "Germany (Mobile)">Germany_Mobile</option>
+    <option value = "Italy (Desktop)">Italy_Desktop</option>
+    <option value = "Italy (Mobile)">Italy_Mobile</option>
+    <option value = "Japan (Desktop)">Japan_Desktop</option>
+    <option value = "Japan (Mobile)">Japan_Mobile</option>
+    <option value = "Norway (Desktop)">Norway_Desktop</option>
+    <option value = "Norway (Mobile)">Norway_Mobile</option>
+    <option value = "Netherlands (Desktop)">Netherlands_Desktop</option>
+    <option value = "Netherlands (Mobile)">Netherlands_Mobile</option>
+    <option value = "Sweden (Desktop)">Sweden_Desktop</option>
+    <option value = "Sweden (Mobile)">Sweden_Mobile</option>
+    <option value = "Turkey (Desktop)">Turkey_Desktop</option>
+    <option value = "Turkey (Mobile)">Turkey_Mobile</option>
 </select>
 
-<section id = "show_Sweden" style="display: none;">
+<section id = "show_Catalonia_d" style="display: none;">
 <p>
-<h3><b>Sweden</b></h3>
+<h3><b>Catalonia_Desktop</b></h3>
 <br>
 <br>
 <p align='center'>
-<img src="images/Sweden_wiki.png" />
+<img src="images/seasonal/seasonal_dec_ca.png" />
 </p>
 </p>
 </section>
 
-
-
-<section id = "show_Denmark" style="display: none;">
+<section id = "show_Catalonia_m" style="display: none;">
 <p>
-<h3><b>Denmark</b></h3>
+<h3><b>Catalonia_Mobile</b></h3>
 <br>
 <br>
 <p align='center'>
-<img src="images/Denmark_wiki.png" />
+<img src="images/seasonal/seasonal_dec_ca.m.png" />
 </p>
 </p>
 </section>
 
-
-
-<section id = "show_Italy" style="display: none;">
+<section id = "show_Denmark_d" style="display: none;">
 <p>
-<h3><b>Italy</b></h3>
+<h3><b>Denmark_Desktop</b></h3>
 <br>
 <br>
 <p align='center'>
-<img src="images/Italy_wiki.png" />
+<img src="images/seasonal/seasonal_dec_da.png" />
 </p>
 </p>
 </section>
 
-
-
-<section id = "show_Norway" style="display: none;">
+<section id = "show_Denmark_m" style="display: none;">
 <p>
-<h3><b>Norway</b></h3>
+<h3><b>Denmark_Mobile</b></h3>
 <br>
 <br>
 <p align='center'>
-<img src="images/Norway_wiki.png" />
+<img src="images/seasonal/seasonal_dec_da.m.png" />
 </p>
 </p>
 </section>
 
-
-
-
-<section id = "show_Germany" style="display: none;">
+<section id = "show_Finland_d" style="display: none;">
 <p>
-<h3><b>Germany</b></h3>
+<h3><b>Finland_Desktop</b></h3>
 <br>
 <br>
 <p align='center'>
-<img src="images/Germany_wiki.png" />
+<img src="images/seasonal/seasonal_dec_fi.png" />
 </p>
 </p>
 </section>
 
-
-
-
-<section id = "show_Japan" style="display: none;">
+<section id = "show_Finland_m" style="display: none;">
 <p>
-<h3><b>Japan</b></h3>
+<h3><b>Finland_Mobile</b></h3>
 <br>
 <br>
 <p align='center'>
-<img src="images/Japan_wiki.png" />
+<img src="images/seasonal/seasonal_dec_fi.m.png" />
 </p>
 </p>
 </section>
 
-
-
-<section id = "show_Netherlands" style="display: none;">
-<p>
-<h3><b>The Netherlands</b></h3>
-<br>
-<br>
-<p align='center'>
-<img src="images/Netherlands_wiki.png" />
-</p>
-</p>
+<!-- Sections for Germany -->
+<section id="show_Germany_d" class="country-section">
+    <h3><b>Germany_Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_de.png" />
+    </p>
 </section>
 
-
-
-<section id = "show_Finland" style="display: none;">
-<p>
-<h3><b>Finland</b></h3>
-<br>
-<br>
-<p align='center'>
-<img src="images/Finland_wiki.png" />
-</p>
-</p>
+<section id="show_Germany_m" class="country-section">
+    <h3><b>Germany_Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_de.m.png" />
+    </p>
 </section>
 
-
-
-<section id = "show_Catalonia" style="display: none;">
-<p>
-<h3><b>Catalonia</b></h3>
-<br>
-<br>
-<p align='center'>
-<img src="images/Catalonya_wiki.png" />
-</p>
-</p>
+<!-- Sections for Italy -->
+<section id="show_Italy_d" class="country-section">
+    <h3><b>Italy_Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_it.png" />
+    </p>
 </section>
 
-
-
-<section id = "show_Turkey" style="display: none;">
-<p>
-<h3><b>Turkey</b></h3>
-<br>
-<br>
-<p align='center'>
-<img src="images/Turkey_wiki.png" />
-</p>
-</p>
+<section id="show_Italy_m" class="country-section">
+    <h3><b>Italy_Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_it.m.png" />
+    </p>
 </section>
-Here are the main conclusions we can draw from these plots:
-- People tend to consult science, internet or engineering-related articles on their desktops.
-STEM.STEM* or Culture.Internet culture are good representation of this. We can look at this difference more in depth and even assess whether the difference in pageview proportions between mobile and desktop is statistically significant by plotting boxplot and performing a Mann-Whitney U test
-<include the boxplots for these subjects>
-- People tend to consult culture-related articles on their mobiles (eg Culture.Food and drink, Culture.Media.Media* or Culture.Sports)
-<include boxplots for these subjects>
 
+<!-- Sections for Japan -->
+<section id="show_Japan_d" class="country-section">
+    <h3><b>Japan_Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_jp.png" />
+    </p>
+</section>
 
-The correlation between technological access and countries' culture needs to be further investigated. 
+<section id="show_Japan_m" class="country-section">
+    <h3><b>Japan_Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_jp.m.png" />
+    </p>
+</section>
 
-We will first cluster our countries in groups according to their ICT usage habits. To do so, a dataset from OECD.stat (https://stats.oecd.org/Index.aspx?DataSetCode=ICT_HH2) was used. It contains statistics about ICT Access and Usage by Individuals for each countries. For instance, the proportion of individuals who did submit forms to public authorities or the proportion of individuals who have transferred files. It gives a sense of the way citizens use ICT and Internet over all the countries. 
-Data was clustered using Agglomerative Clustering and the optimal cluster number was chosen using Silhouette Score. To visualise the clusters, data was plotted in the plan of the 2 Principal Components. 3 main clusters were retrieved:
+<!-- Sections for Norway -->
+<section id="show_Norway_d" class="country-section">
+    <h3><b>Norway_Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_no.png" />
+    </p>
+</section>
 
-<include the image>
+<section id="show_Norway_m" class="country-section">
+    <h3><b>Norway_Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_no.m.png" />
+    </p>
+</section>
 
-We then clustered countries in groups according to their Wikipedia pageview patterns. The proportion of pageviews for each topic was calculated by taking the median proportion of pageviews for a specific topic on a specific date. Using also Agglomerative Clustering and Silhouette Score for selecting clusters, we ended up with 3 clusters with similar pageview patterns:
+<!-- Sections for Netherlands -->
+<section id="show_Netherlands_d" class="country-section">
+    <h3><b>Netherlands_Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_nl.png" />
+    </p>
+</section>
 
-<include the image>
+<section id="show_Netherlands_m" class="country-section">
+    <h3><b>Netherlands_Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_nl.m.png" />
+    </p>
+</section>
 
-Finally, we clustered countries in groups according to their Hofstede dimensions. Using the same clustering parameters as before, here are the 3 clusters isolated:
+<!-- Sections for Sweden -->
+<section id="show_Sweden_d" class="country-section">
+    <h3><b>Sweden_Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_se.png" />
+    </p>
+</section>
 
-<include the image>
+<section id="show_Sweden_m" class="country-section">
+    <h3><b>Sweden_Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_se.m.png" />
+    </p>
+</section>
 
-Denmark, The Netherlands, Sweden and Norway are always clustered together, suggesting that their ICT usage habits, Wikipedia pageview trends and Cultural Identity in the sense of Hofstede dimensions are all similar in a way. 
-For the rest of the countries the potential correlation between ICT usage and cultural interests is less straightforward. 
+<!-- Sections for Turkey -->
+<section id="show_Turkey_d" class="country-section">
+    <h3><b>Turkey_Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_tr.png" />
+    </p>
+</section>
 
+<section id="show_Turkey_m" class="country-section">
+    <h3><b>Turkey_Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_tr.m.png" />
+    </p>
+</section>
 
+<br>
+<br>
 
-
-
-
-
-
-
-```
-The final element.
-```
