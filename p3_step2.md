@@ -26,7 +26,7 @@ Although, there were no noticeable differences in the topics pre and post-covid,
 
  <br>
 
-I want to see specific details for <label for="map_select"></label>
+I want to see the increase for the following topic : <label for="map_select"></label>
 <select id="increase_selection" name="registration">
     <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "map1">Biology</option>
@@ -60,7 +60,6 @@ I want to see specific details for <label for="map_select"></label>
 
 <script src='javascript.js'></script>
 
-</html>
 INTERACTIVE PLOT OF INCREASE
 INTERACTIVE PLOT OF DECREASE
 
