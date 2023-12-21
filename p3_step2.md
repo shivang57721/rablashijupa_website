@@ -20,6 +20,22 @@ Our first plot shows that there were more pageviews on Wikipedia during the pand
 
 Although, there were no noticeable differences in the topics pre and post-covid, some subtopics had noticeable changes. Indeed, as shows our plot some subtopics wikipedia pages were much more visited during covid and inversely. STEM.Biology is a good example of this interest growth. In every country we studied, this subtopic had roughly a 20 % interest increase (taking into account that more people visited wikipedia pages during Covid). This makes sense as Covid is intricately linked with biology, thus covid raised interest in biology. A subtopic that we noticed received an interest decrease is Culture.Sports. Indeed, its interest decreased roughly by 20 % in every country. Again, this makes sense as most people were at home and didn’t have the opportunity to practice sport, thus it decreased their interest in sports during that period. In the following plot, we can see which subtopics received more attention and the ones that received less attention.
 
+I want to see specific details for <label for="map_select"></label>
+<select id="map_selection" name="registration">
+    <option value = "select_region" selected="selected"> ---Select--- </option>
+    <option value = "map1">Europe</option>
+    <option value = "map2">East Asia</option>
+</select>
+
+<p id='map_europe' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Books.png" alt="map_europe"/>
+</p>
+
+<p id='map_east_asia' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Education.png" alt="map_asia"/>
+</p>
+
+<br>
 INTERACTIVE PLOT OF INCREASE
 INTERACTIVE PLOT OF DECREASE
 
