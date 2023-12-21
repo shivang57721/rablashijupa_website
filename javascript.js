@@ -1,7 +1,7 @@
 document.getElementById('increase_selection').addEventListener('change', function() {
     var selectedValue = this.value;
     
-    document.getElementById('biology').style.display = 'block';
+    document.getElementById('biology').style.display = 'none';
     document.getElementById('books').style.display = 'none';
     document.getElementById('videogames').style.display = 'none';
     document.getElementById('internetculture').style.display = 'none';
