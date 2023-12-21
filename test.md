@@ -13,13 +13,18 @@ I want to see specific details for <label for="map_select"></label>
     <option value = "map2">East Asia</option>
 </select>
 
-<p id='stop' align='center' style="display: none;" >
-<img src="hello" alt="mybad"/>
+<p id='' align='center' style="display: none;" >
+<img src="images/proportions_combined.png" alt="mybad"/>
 </p>
 
-<p id='puzzle' align='center' style="display: none;" >
-<img src="puzzle.png" alt="urbad"/>
+<p id='' align='center' style="display: none;" >
+<img src="images/proportions.png" alt="urbad"/>
 </p>
 
 <br>
+
+<script src='javascript.js'></script>
+
+</html>
+
 
