@@ -109,7 +109,6 @@ I want to see the decrease for the following topic : <label for="map_select"></l
     <option value = "m1">Entertainment</option>
     <option value = "m2">Films</option>
     <option value = "m3">Media</option>
-    
 </select>
 
 <p id='entertainment' align='center' style="display: none;" >
