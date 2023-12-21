@@ -134,7 +134,7 @@ We also implemented clusters based on the countries' browsing patterns pre and p
 PLOT OF CLUSTERS PRE/POST COVID FOR EVERY CULTURAL ASPECT
 
 
-I want to see the clusters for the following cultural aspect : <label for="map_select"></label>
+I want to see the clusters for the following cultural aspect before COVID : <label for="map_select"></label>
 <select id="cluster_bef_selection" name="registration">
     <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "map1">Individualism</option>
@@ -167,6 +167,43 @@ I want to see the clusters for the following cultural aspect : <label for="map_s
 
 <p id='uai' align='center' style="display: none;" >
 <img src="images/pre_post_covid/before_cluster/uai.png" alt="map_asia"/>
+</p>
+
+<br>
+
+I want to see the clusters for the following cultural aspect after COVID : <label for="map_select"></label>
+<select id="cluster_after_selection" name="registration">
+    <option value = "select_region" selected="selected"> ---Select--- </option>
+    <option value = "map1">Individualism</option>
+    <option value = "map2">Indulgence</option>
+    <option value = "map3">Long-term orientation</option>
+    <option value = "map4">Motivation towards achievement and success</option>
+    <option value = "map5">Power distance</option>
+    <option value = "map6">Uncertainty avoidance</option>
+</select>
+
+<p id='idv' align='center' style="display: none;" >
+<img src="images/pre_post_covid/after_cluster/idv2.png" alt="map_asia"/>
+</p>
+
+<p id='ivr' align='center' style="display: none;" >
+<img src="images/pre_post_covid/after_cluster/ivr2.png" alt="map_europe"/>
+</p>
+
+<p id='ltowvs' align='center' style="display: none;" >
+<img src="images/pre_post_covid/after_cluster/ltowvs.png" alt="map_asia"/>
+</p>
+
+<p id='mas' align='center' style="display: none;" >
+<img src="images/pre_post_covid/after_cluster/mas2.png" alt="map_asia"/>
+</p>
+
+<p id='pdi' align='center' style="display: none;" >
+<img src="images/pre_post_covid/after_cluster/pdi2.png" alt="map_europe"/>
+</p>
+
+<p id='uai' align='center' style="display: none;" >
+<img src="images/pre_post_covid/after_cluster/uai2.png" alt="map_asia"/>
 </p>
 
 <br>
