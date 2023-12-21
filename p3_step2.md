@@ -98,7 +98,8 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 
 # Distinct Online Behavior of South Korea During the Pandemic
 
-While doing our analysis, we noticed that South Korea tends to stand aside in certain subtopics. In contrast to other countries,  South Korea shows less interest for “Entertainment”, “Films” and “Media”during the pandemic  according to our analysis. Taking into account that South Korea didn’t have much of an “imposed” lockdown, it would make sense that the population tried to focus as much as possible on their work during what was an “uncertain time”. 
+While doing our analysis, we noticed that South Korea tends to stand aside in certain subtopics. In contrast to other countries,  South Korea shows less interest for “Entertainment”, “Films” and “Media” during the pandemic  according to our analysis. Taking into account that South Korea didn’t have much of an “imposed” lockdown, it would make sense that the population tried to focus as much as possible on their work during what was an “uncertain time”, thus it would explain their interest deccrease in these categories.
+While all other countries perceived an increase in these categories, as they seeked for entertainment during the pandemic and the lockdown.
 
 PLOT OF KOREA
 
