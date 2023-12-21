@@ -6,7 +6,7 @@ TIMELINE OF SCHOOL CLOSURE
 
 # Changes in Wikipedia Subtopic Interest During COVID-19 
 
-Our first plot shows that there were more pageviews on Wikipedia during the pandemic, in most countries. This makes sense as people were mostly at home and on their computers. The only countries that registered less pageviews during the pandemic are the three scandinavian countries : Denmark, Norway and Sweden. These three countries had short lockdown, which could explain why they didn't register a growth in Wikipedia pageviews. 
+Our first plot shows that there were more pageviews on Wikipedia during the pandemic, in most countries. This makes sense as people were mostly at home and on their computers. The only countries that registered less pageviews during the pandemic are the three scandinavian countries : Denmark, Norway and Sweden. These three countries had short lockdown, which could explain why they didn't register a growth in Wikipedia pageviews as people spent more time outside when the lockdown ended.
 
 FIRST PLOT 
 
