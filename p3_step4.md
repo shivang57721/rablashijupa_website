@@ -22,7 +22,7 @@ As they are many topics, this plot is hardly readable. We thus mapped the sub-to
 - Culture
 
 <p align='center'>
-<img src="images/proportions.png" />
+<img src="images/proportions_.png" />
 </p>
 
  <br>
@@ -42,12 +42,16 @@ Plese select a country to display the details :
     <option value = "Denmark (Mobile)">Denmark_Mobile</option>
     <option value = "Finland (Desktop)">Finland_Desktop</option>
     <option value = "Finland (Mobile)">Finland_Mobile</option>
+    <option value = "France (Desktop)">France_Desktop</option>
+    <option value = "France (Mobile)">France_Mobile</option>
     <option value = "Germany (Desktop)">Germany_Desktop</option>
     <option value = "Germany (Mobile)">Germany_Mobile</option>
     <option value = "Italy (Desktop)">Italy_Desktop</option>
     <option value = "Italy (Mobile)">Italy_Mobile</option>
     <option value = "Japan (Desktop)">Japan_Desktop</option>
     <option value = "Japan (Mobile)">Japan_Mobile</option>
+    <option value = "Korea (Desktop)">Korea_Desktop</option>
+    <option value = "Korea (Mobile)">Korea_Mobile</option>
     <option value = "Norway (Desktop)">Norway_Desktop</option>
     <option value = "Norway (Mobile)">Norway_Mobile</option>
     <option value = "Netherlands (Desktop)">Netherlands_Desktop</option>
@@ -60,7 +64,7 @@ Plese select a country to display the details :
 
 <section id = "show_Catalonia_d" style="display: none;">
 <p>
-<h3><b>Catalonia_Desktop</b></h3>
+<h3><b>Catalonia Desktop</b></h3>
 <br>
 <br>
 <p align='center'>
@@ -71,7 +75,7 @@ Plese select a country to display the details :
 
 <section id = "show_Catalonia_m" style="display: none;">
 <p>
-<h3><b>Catalonia_Mobile</b></h3>
+<h3><b>Catalonia Mobile</b></h3>
 <br>
 <br>
 <p align='center'>
@@ -82,7 +86,7 @@ Plese select a country to display the details :
 
 <section id = "show_Denmark_d" style="display: none;">
 <p>
-<h3><b>Denmark_Desktop</b></h3>
+<h3><b>Denmark Desktop</b></h3>
 <br>
 <br>
 <p align='center'>
@@ -93,7 +97,7 @@ Plese select a country to display the details :
 
 <section id = "show_Denmark_m" style="display: none;">
 <p>
-<h3><b>Denmark_Mobile</b></h3>
+<h3><b>Denmark Mobile</b></h3>
 <br>
 <br>
 <p align='center'>
@@ -104,7 +108,7 @@ Plese select a country to display the details :
 
 <section id = "show_Finland_d" style="display: none;">
 <p>
-<h3><b>Finland_Desktop</b></h3>
+<h3><b>Finland Desktop</b></h3>
 <br>
 <br>
 <p align='center'>
@@ -115,7 +119,7 @@ Plese select a country to display the details :
 
 <section id = "show_Finland_m" style="display: none;">
 <p>
-<h3><b>Finland_Mobile</b></h3>
+<h3><b>Finland Mobile</b></h3>
 <br>
 <br>
 <p align='center'>
@@ -124,16 +128,39 @@ Plese select a country to display the details :
 </p>
 </section>
 
+
+<section id = "show_France_d" style="display: none;">
+<p>
+<h3><b>France Desktop</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/seasonal/seasonal_dec_fr.png" />
+</p>
+</p>
+</section>
+
+<section id = "show_France_m" style="display: none;">
+<p>
+<h3><b>France Mobile</b></h3>
+<br>
+<br>
+<p align='center'>
+<img src="images/seasonal/seasonal_dec_fr.m.png" />
+</p>
+</p>
+</section>
+
 <!-- Sections for Germany -->
 <section id="show_Germany_d" class="country-section">
-    <h3><b>Germany_Desktop</b></h3>
+    <h3><b>Germany Desktop</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_de.png" />
     </p>
 </section>
 
 <section id="show_Germany_m" class="country-section">
-    <h3><b>Germany_Mobile</b></h3>
+    <h3><b>Germany Mobile</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_de.m.png" />
     </p>
@@ -141,14 +168,14 @@ Plese select a country to display the details :
 
 <!-- Sections for Italy -->
 <section id="show_Italy_d" class="country-section">
-    <h3><b>Italy_Desktop</b></h3>
+    <h3><b>Italy Desktop</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_it.png" />
     </p>
 </section>
 
 <section id="show_Italy_m" class="country-section">
-    <h3><b>Italy_Mobile</b></h3>
+    <h3><b>Italy Mobile</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_it.m.png" />
     </p>
@@ -156,29 +183,44 @@ Plese select a country to display the details :
 
 <!-- Sections for Japan -->
 <section id="show_Japan_d" class="country-section">
-    <h3><b>Japan_Desktop</b></h3>
+    <h3><b>Japan Desktop</b></h3>
     <p align='center'>
-        <img src="images/seasonal/seasonal_dec_jp.png" />
+        <img src="images/seasonal/seasonal_dec_ja.png" />
     </p>
 </section>
 
 <section id="show_Japan_m" class="country-section">
-    <h3><b>Japan_Mobile</b></h3>
+    <h3><b>Japan Mobile</b></h3>
     <p align='center'>
-        <img src="images/seasonal/seasonal_dec_jp.m.png" />
+        <img src="images/seasonal/seasonal_dec_ja.m.png" />
+    </p>
+</section>
+
+<!-- Sections for Korea -->
+<section id="show_Korea_d" class="country-section">
+    <h3><b>Korea Desktop</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_ko.png" />
+    </p>
+</section>
+
+<section id="show_Korea_m" class="country-section">
+    <h3><b>Korea Mobile</b></h3>
+    <p align='center'>
+        <img src="images/seasonal/seasonal_dec_ko.m.png" />
     </p>
 </section>
 
 <!-- Sections for Norway -->
 <section id="show_Norway_d" class="country-section">
-    <h3><b>Norway_Desktop</b></h3>
+    <h3><b>Norway Desktop</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_no.png" />
     </p>
 </section>
 
 <section id="show_Norway_m" class="country-section">
-    <h3><b>Norway_Mobile</b></h3>
+    <h3><b>Norway Mobile</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_no.m.png" />
     </p>
@@ -186,14 +228,14 @@ Plese select a country to display the details :
 
 <!-- Sections for Netherlands -->
 <section id="show_Netherlands_d" class="country-section">
-    <h3><b>Netherlands_Desktop</b></h3>
+    <h3><b>Netherlands Desktop</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_nl.png" />
     </p>
 </section>
 
 <section id="show_Netherlands_m" class="country-section">
-    <h3><b>Netherlands_Mobile</b></h3>
+    <h3><b>Netherlands Mobile</b></h3>
     <p align='center'>
         <img src="images/seasonal/seasonal_dec_nl.m.png" />
     </p>
@@ -203,14 +245,14 @@ Plese select a country to display the details :
 <section id="show_Sweden_d" class="country-section">
     <h3><b>Sweden_Desktop</b></h3>
     <p align='center'>
-        <img src="images/seasonal/seasonal_dec_se.png" />
+        <img src="images/seasonal/seasonal_dec_sv.png" />
     </p>
 </section>
 
 <section id="show_Sweden_m" class="country-section">
     <h3><b>Sweden_Mobile</b></h3>
     <p align='center'>
-        <img src="images/seasonal/seasonal_dec_se.m.png" />
+        <img src="images/seasonal/seasonal_dec_sv.m.png" />
     </p>
 </section>
 
@@ -231,4 +273,8 @@ Plese select a country to display the details :
 
 <br>
 <br>
+
+<script src='javascript_seaso.js'></script>
+
+</html>
 
