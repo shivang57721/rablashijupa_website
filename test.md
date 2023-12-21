@@ -2,7 +2,7 @@
 layout: default
 ---
 <p align='center'>
-    <img src="proportion.png" />
+    <img src="Images/proportion.png" />
 </p>
 
 I want to see specific details for <label for="map_selection"></label>
