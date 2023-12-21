@@ -95,3 +95,61 @@ document.getElementById('korea_selection').addEventListener('change', function()
         document.getElementById('media').style.display = 'block';
     }
 });
+
+document.getElementById('cluster_bef_selection').addEventListener('change', function() {
+    var selectedValue = this.value;
+    
+    document.getElementById('idv').style.display = 'none';
+    document.getElementById('ivr').style.display = 'none';
+    document.getElementById('ltowvs').style.display = 'none';
+    document.getElementById('mas').style.display = 'none';
+    document.getElementById('pdi').style.display = 'none';
+    document.getElementById('uai').style.display = 'none';
+
+
+    if (selectedValue === 'map1') {
+        document.getElementById('idv').style.display = 'block';
+        document.getElementById('ivr').style.display = 'none';
+        document.getElementById('ltowvs').style.display = 'none';
+        document.getElementById('mas').style.display = 'none';
+        document.getElementById('pdi').style.display = 'none';
+        document.getElementById('uai').style.display = 'none';
+    } else if (selectedValue === 'map2') {
+        document.getElementById('idv').style.display = 'none';
+        document.getElementById('ivr').style.display = 'block';
+        document.getElementById('ltowvs').style.display = 'none';
+        document.getElementById('mas').style.display = 'none';
+        document.getElementById('pdi').style.display = 'none';
+        document.getElementById('uai').style.display = 'none';
+        
+    } else if (selectedValue === 'map3') {
+        document.getElementById('idv').style.display = 'none';
+        document.getElementById('ivr').style.display = 'none';
+        document.getElementById('ltowvs').style.display = 'block';
+        document.getElementById('mas').style.display = 'none';
+        document.getElementById('pdi').style.display = 'none';
+        document.getElementById('uai').style.display = 'none';
+    }else if (selectedValue === 'map4') {
+        document.getElementById('idv').style.display = 'none';
+        document.getElementById('ivr').style.display = 'none';
+        document.getElementById('ltowvs').style.display = 'none';
+        document.getElementById('mas').style.display = 'block';
+        document.getElementById('pdi').style.display = 'none';
+        document.getElementById('uai').style.display = 'none';
+    }else if (selectedValue === 'map5') {
+        document.getElementById('idv').style.display = 'none';
+        document.getElementById('ivr').style.display = 'none';
+        document.getElementById('ltowvs').style.display = 'none';
+        document.getElementById('mas').style.display = 'none';
+        document.getElementById('pdi').style.display = 'block';
+        document.getElementById('uai').style.display = 'none';
+    }else if (selectedValue === 'map5') {
+        document.getElementById('idv').style.display = 'none';
+        document.getElementById('ivr').style.display = 'none';
+        document.getElementById('ltowvs').style.display = 'none';
+        document.getElementById('mas').style.display = 'none';
+        document.getElementById('pdi').style.display = 'none';
+        document.getElementById('uai').style.display = 'block';
+    }
+});
+
