@@ -13,7 +13,7 @@ In order to evaluate how much covid affected people’s interest, it is necessar
 Our first plot shows that there were more pageviews on Wikipedia during the pandemic, in most countries. This makes sense as people were mostly at home and on their computers. The only countries that registered less pageviews during the pandemic are the three scandinavian countries : Denmark, Norway and Sweden. These three countries had short lockdown, which could explain why they didn't register a growth in Wikipedia pageviews as people spent more time outside when the lockdown ended.
 
 <p align='center'>
-<img src="images/pre_post_covid/Proportion_of_pagviews_bef_aft_covid.png" />
+<img src="images/pre_post_covid/Proportion_of_pagviews_bef_after.png" />
 </p>
 
  <br>
