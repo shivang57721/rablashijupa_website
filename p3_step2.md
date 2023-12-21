@@ -133,12 +133,12 @@ We also implemented clusters based on the countries' browsing patterns pre and p
 I want to see the clusters for the following cultural aspect before COVID : <label for="map_select"></label>
 <select id="cluster_bef_selection" name="registration">
     <option value = "select_region" selected="selected"> ---Select--- </option>
-    <option value = "map1">Individualism</option>
-    <option value = "map2">Indulgence</option>
-    <option value = "map3">Long-term orientation</option>
-    <option value = "map4">Motivation towards achievement and success</option>
-    <option value = "map5">Power distance</option>
-    <option value = "map6">Uncertainty avoidance</option>
+    <option value = "mapp1">Individualism</option>
+    <option value = "mapp2">Indulgence</option>
+    <option value = "mapp3">Long-term orientation</option>
+    <option value = "mapp4">Motivation towards achievement and success</option>
+    <option value = "mapp5">Power distance</option>
+    <option value = "mapp6">Uncertainty avoidance</option>
 </select>
 
 <p id='idv' align='center' style="display: none;" >
@@ -170,12 +170,12 @@ I want to see the clusters for the following cultural aspect before COVID : <lab
 I want to see the clusters for the following cultural aspect after COVID : <label for="map_select"></label>
 <select id="cluster_after_selection" name="registration">
     <option value = "select_region" selected="selected"> ---Select--- </option>
-    <option value = "map1">Individualism</option>
-    <option value = "map2">Indulgence</option>
-    <option value = "map3">Long-term orientation</option>
-    <option value = "map4">Motivation towards achievement and success</option>
-    <option value = "map5">Power distance</option>
-    <option value = "map6">Uncertainty avoidance</option>
+    <option value = "mappp1">Individualism</option>
+    <option value = "mappp2">Indulgence</option>
+    <option value = "mappp3">Long-term orientation</option>
+    <option value = "mappp4">Motivation towards achievement and success</option>
+    <option value = "mappp5">Power distance</option>
+    <option value = "mappp6">Uncertainty avoidance</option>
 </select>
 
 <p id='idv' align='center' style="display: none;" >
