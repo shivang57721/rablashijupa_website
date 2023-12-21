@@ -72,3 +72,26 @@ document.getElementById('decrease_selection').addEventListener('change', functio
         document.getElementById('fashion').style.display = 'block';
     }
 });
+
+document.getElementById('korea_selection').addEventListener('change', function() {
+    var selectedValue = this.value;
+    
+    document.getElementById('entertainment').style.display = 'none';
+    document.getElementById('films').style.display = 'none';
+    document.getElementById('media').style.display = 'none';
+
+    if (selectedValue === 'm1') {
+        document.getElementById('entertainment').style.display = 'block';
+        document.getElementById('films').style.display = 'none';
+        document.getElementById('media').style.display = 'none';
+    } else if (selectedValue === 'm2') {
+        document.getElementById('entertainment').style.display = 'none';
+        document.getElementById('films').style.display = 'block';
+        document.getElementById('media').style.display = 'none';
+        
+    } else if (selectedValue === 'm3') {
+        document.getElementById('entertainment').style.display = 'none';
+        document.getElementById('films').style.display = 'none';
+        document.getElementById('media').style.display = 'block';
+    }
+});
