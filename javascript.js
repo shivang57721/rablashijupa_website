@@ -157,57 +157,57 @@ document.getElementById('cluster_bef_selection').addEventListener('change', func
 document.getElementById('cluster_after_selection').addEventListener('change', function() {
     var selectedValue = this.value;
     
-    document.getElementById('idv').style.display = 'none';
-    document.getElementById('ivr').style.display = 'none';
-    document.getElementById('ltowvs').style.display = 'none';
-    document.getElementById('mas').style.display = 'none';
-    document.getElementById('pdi').style.display = 'none';
-    document.getElementById('uai').style.display = 'none';
+    document.getElementById('idv2').style.display = 'none';
+    document.getElementById('ivr2').style.display = 'none';
+    document.getElementById('ltowvs2').style.display = 'none';
+    document.getElementById('mas2').style.display = 'none';
+    document.getElementById('pdi2').style.display = 'none';
+    document.getElementById('uai2').style.display = 'none';
 
 
     if (selectedValue === 'mappp1') {
-        document.getElementById('idv').style.display = 'block';
-        document.getElementById('ivr').style.display = 'none';
-        document.getElementById('ltowvs').style.display = 'none';
-        document.getElementById('mas').style.display = 'none';
-        document.getElementById('pdi').style.display = 'none';
-        document.getElementById('uai').style.display = 'none';
+        document.getElementById('idv2').style.display = 'block';
+        document.getElementById('ivr2').style.display = 'none';
+        document.getElementById('ltowvs2').style.display = 'none';
+        document.getElementById('mas2').style.display = 'none';
+        document.getElementById('pdi2').style.display = 'none';
+        document.getElementById('uai2').style.display = 'none';
     } else if (selectedValue === 'mappp2') {
-        document.getElementById('idv').style.display = 'none';
-        document.getElementById('ivr').style.display = 'block';
-        document.getElementById('ltowvs').style.display = 'none';
-        document.getElementById('mas').style.display = 'none';
-        document.getElementById('pdi').style.display = 'none';
-        document.getElementById('uai').style.display = 'none';
+        document.getElementById('idv2').style.display = 'none';
+        document.getElementById('ivr2').style.display = 'block';
+        document.getElementById('ltowvs2').style.display = 'none';
+        document.getElementById('mas2').style.display = 'none';
+        document.getElementById('pdi2').style.display = 'none';
+        document.getElementById('uai2').style.display = 'none';
         
     } else if (selectedValue === 'mappp3') {
-        document.getElementById('idv').style.display = 'none';
-        document.getElementById('ivr').style.display = 'none';
-        document.getElementById('ltowvs').style.display = 'block';
-        document.getElementById('mas').style.display = 'none';
-        document.getElementById('pdi').style.display = 'none';
-        document.getElementById('uai').style.display = 'none';
+        document.getElementById('idv2').style.display = 'none';
+        document.getElementById('ivr2').style.display = 'none';
+        document.getElementById('ltowvs2').style.display = 'block';
+        document.getElementById('mas2').style.display = 'none';
+        document.getElementById('pdi2').style.display = 'none';
+        document.getElementById('uai2').style.display = 'none';
     }else if (selectedValue === 'mappp4') {
-        document.getElementById('idv').style.display = 'none';
-        document.getElementById('ivr').style.display = 'none';
-        document.getElementById('ltowvs').style.display = 'none';
-        document.getElementById('mas').style.display = 'block';
-        document.getElementById('pdi').style.display = 'none';
-        document.getElementById('uai').style.display = 'none';
+        document.getElementById('idv2').style.display = 'none';
+        document.getElementById('ivr2').style.display = 'none';
+        document.getElementById('ltowvs2').style.display = 'none';
+        document.getElementById('mas2').style.display = 'block';
+        document.getElementById('pdi2').style.display = 'none';
+        document.getElementById('uai2').style.display = 'none';
     }else if (selectedValue === 'mappp5') {
-        document.getElementById('idv').style.display = 'none';
-        document.getElementById('ivr').style.display = 'none';
-        document.getElementById('ltowvs').style.display = 'none';
-        document.getElementById('mas').style.display = 'none';
-        document.getElementById('pdi').style.display = 'block';
-        document.getElementById('uai').style.display = 'none';
+        document.getElementById('idv2').style.display = 'none';
+        document.getElementById('ivr2').style.display = 'none';
+        document.getElementById('ltowvs2').style.display = 'none';
+        document.getElementById('mas2').style.display = 'none';
+        document.getElementById('pdi2').style.display = 'block';
+        document.getElementById('uai2').style.display = 'none';
     }else if (selectedValue === 'mappp6') {
-        document.getElementById('idv').style.display = 'none';
-        document.getElementById('ivr').style.display = 'none';
-        document.getElementById('ltowvs').style.display = 'none';
-        document.getElementById('mas').style.display = 'none';
-        document.getElementById('pdi').style.display = 'none';
-        document.getElementById('uai').style.display = 'block';
+        document.getElementById('idv2').style.display = 'none';
+        document.getElementById('ivr2').style.display = 'none';
+        document.getElementById('ltowvs2').style.display = 'none';
+        document.getElementById('mas2').style.display = 'none';
+        document.getElementById('pdi2').style.display = 'none';
+        document.getElementById('uai2').style.display = 'block';
     }
 }); 
 
