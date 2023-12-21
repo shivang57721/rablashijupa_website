@@ -2,6 +2,11 @@
 
 In order to evaluate how much covid affected people’s interest, it is necessary to compare data before and during the pandemic. We therefore take the assumption that school closure's date for each country represents the beginning of the pandemic and consequently the lockdown. 
 
+<p align='center'>
+<img src="images/pre_post_covid/timeline.png" />
+</p>
+
+ <br>
 TIMELINE OF SCHOOL CLOSURE 
 
 # Changes in Wikipedia Subtopic Interest During COVID-19 
