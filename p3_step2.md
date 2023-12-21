@@ -127,7 +127,7 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 
 # Consistency in Country Clusters Based on Browsing Patterns Pre and Post-COVID
 
-We also implemented clusters based on the countries' browsing patterns pre and post-covid and their Hofstede score in the different cultaural aspects. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remained the same.
+We also implemented clusters based on the countries' browsing patterns pre and post-covid and their Hofstede score in the different cultaural aspects. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remained the same. HEYYYY
 
 
 I want to see the clusters for the following cultural aspect before COVID : <label for="map_select"></label>
