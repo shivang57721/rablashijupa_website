@@ -59,7 +59,7 @@ I want to see the increase for the following topic : <label for="map_select"></l
 <br>
 
 
-I want to see the increase for the following topic : <label for="map_select"></label>
+I want to see the decrease for the following topic : <label for="map_select"></label>
 <select id="decrease_selection" name="registration">
     <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "mp1">Sports</option>
@@ -69,7 +69,7 @@ I want to see the increase for the following topic : <label for="map_select"></l
 </select>
 
 <p id='sports' align='center' style="display: none;" >
-<img src="images/pre_post_covid/Sports.png" alt="map_asia"/>
+<img src="images/pre_post_covid/Sport.png" alt="map_asia"/>
 </p>
 
 <p id='education' align='center' style="display: none;" >
