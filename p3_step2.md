@@ -130,6 +130,6 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 
 # Consistency in Country Clusters Based on Browsing Patterns Pre and Post-COVID
 
-We also implemented clusters based on the country browsing patterns pre and post-covid. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remain the same.
+We also implemented clusters based on the countries' browsing patterns pre and post-covid. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remained the same.
 
 PLOT OF CLUSTERS PRE/POST COVID FOR EVERY CULTURAL ASPECT
