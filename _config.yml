@@ -4,6 +4,6 @@ description: Website for our ADA project
 show_downloads: True
 navigation:
   - title: Home
-    url: /
+    url: p3_step4
   - title: Example
     url: example
