@@ -36,6 +36,10 @@ I want to see specific details for <label for="map_select"></label>
 </p>
 
 <br>
+
+<script src='javascript.js'></script>
+
+</html>
 INTERACTIVE PLOT OF INCREASE
 INTERACTIVE PLOT OF DECREASE
 
