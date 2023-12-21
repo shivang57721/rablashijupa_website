@@ -1,12 +1,12 @@
-const register_c = document.querySelector("#registration_selection_country");
+document.getElementById('map_selection').addEventListener('change', function() {
+    var selectedValue = this.value;
+    
+    document.getElementById('image1').style.display = 'none';
+    document.getElementById('image2').style.display = 'none';
 
-register_c.addEventListener('change', (event) => {
-  if (register_c.value === "map1") {
-    show_Sweden.style.display = "block";
-    show_Denmark.style.display = "none";
-      }
-  else if (register_c.value === "map2") {
-    show_Sweden.style.display = "none";
-    show_Denmark.style.display = "block";
-      }
+    if (selectedValue === 'map1') {
+        document.getElementById('image1').style.display = 'block';
+    } else if (selectedValue === 'map2') {
+        document.getElementById('image2').style.display = 'block';
+    }
 });
