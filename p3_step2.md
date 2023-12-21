@@ -58,10 +58,39 @@ I want to see the increase for the following topic : <label for="map_select"></l
 
 <br>
 
+
+I want to see the increase for the following topic : <label for="map_select"></label>
+<select id="decrease_selection" name="registration">
+    <option value = "select_region" selected="selected"> ---Select--- </option>
+    <option value = "mp1">Sports</option>
+    <option value = "mp2">Education</option>
+    <option value = "mp3">Engineering</option>
+    <option value = "mp4">Fashion</option>
+</select>
+
+<p id='sports' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Sports.png" alt="map_asia"/>
+</p>
+
+<p id='education' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Education.png" alt="map_europe"/>
+</p>
+
+<p id='engineering' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Engineering.png" alt="map_asia"/>
+</p>
+
+<p id='fashion' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Fashion.png" alt="map_asia"/>
+</p>
+
+<br>
+
 <script src='javascript.js'></script>
 
-INTERACTIVE PLOT OF INCREASE
-INTERACTIVE PLOT OF DECREASE
+
+
+
 
 
 
