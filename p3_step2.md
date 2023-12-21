@@ -178,27 +178,27 @@ I want to see the clusters for the following cultural aspect after COVID : <labe
     <option value = "mappp6">Uncertainty avoidance</option>
 </select>
 
-<p id='idv' align='center' style="display: none;" >
+<p id='idv2' align='center' style="display: none;" >
 <img src="images/pre_post_covid/after_cluster/idv2.png" alt="map_asia"/>
 </p>
 
-<p id='ivr' align='center' style="display: none;" >
+<p id='ivr2' align='center' style="display: none;" >
 <img src="images/pre_post_covid/after_cluster/ivr2.png" alt="map_europe"/>
 </p>
 
-<p id='ltowvs' align='center' style="display: none;" >
+<p id='ltowvs2' align='center' style="display: none;" >
 <img src="images/pre_post_covid/after_cluster/ltowvs.png" alt="map_asia"/>
 </p>
 
-<p id='mas' align='center' style="display: none;" >
+<p id='mas2' align='center' style="display: none;" >
 <img src="images/pre_post_covid/after_cluster/mas2.png" alt="map_asia"/>
 </p>
 
-<p id='pdi' align='center' style="display: none;" >
+<p id='pdi2' align='center' style="display: none;" >
 <img src="images/pre_post_covid/after_cluster/pdi2.png" alt="map_europe"/>
 </p>
 
-<p id='uai' align='center' style="display: none;" >
+<p id='uai2' align='center' style="display: none;" >
 <img src="images/pre_post_covid/after_cluster/uai2.png" alt="map_asia"/>
 </p>
 
