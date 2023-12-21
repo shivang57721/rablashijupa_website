@@ -125,7 +125,6 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 
 <br>
 
-<script src='javascript.js'></script>
 
 
 # Consistency in Country Clusters Based on Browsing Patterns Pre and Post-COVID
@@ -133,3 +132,45 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 We also implemented clusters based on the countries' browsing patterns pre and post-covid and their Hofstede score in the different cultaural aspects. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remained the same.
 
 PLOT OF CLUSTERS PRE/POST COVID FOR EVERY CULTURAL ASPECT
+
+
+I want to see the clusters for the following cultural aspect : <label for="map_select"></label>
+<select id="cluster_bef_selection" name="registration">
+    <option value = "select_region" selected="selected"> ---Select--- </option>
+    <option value = "map1">Individualism</option>
+    <option value = "map2">Indulgence</option>
+    <option value = "map3">Long-term orientation</option>
+    <option value = "map4">Motivation towards achievement and success</option>
+    <option value = "map5">Power distance</option>
+    <option value = "map6">Uncertainty avoidance</option>
+</select>
+
+<p id='idv' align='center' style="display: none;" >
+<img src="images/pre_post_covid/before_cluster/idv.png" alt="map_asia"/>
+</p>
+
+<p id='ivr' align='center' style="display: none;" >
+<img src="images/pre_post_covid/before_cluster/ivr.png" alt="map_europe"/>
+</p>
+
+<p id='ltowvs' align='center' style="display: none;" >
+<img src="images/pre_post_covid/before_cluster/ltowvs.png" alt="map_asia"/>
+</p>
+
+<p id='mas' align='center' style="display: none;" >
+<img src="images/pre_post_covid/before_cluster/mas.png" alt="map_asia"/>
+</p>
+
+<p id='pdi' align='center' style="display: none;" >
+<img src="images/pre_post_covid/before_cluster/pdi.png" alt="map_europe"/>
+</p>
+
+<p id='uai' align='center' style="display: none;" >
+<img src="images/pre_post_covid/before_cluster/uai.png" alt="map_asia"/>
+</p>
+
+<br>
+
+
+<script src='javascript.js'></script>
+
