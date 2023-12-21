@@ -3,7 +3,7 @@ layout: default
 ---
 
 <p align='center'>
-<img src="images/World_democracy_index_4.png" />
+<img src="hello.png" />
 </p>
 
 I want to see specific details for <label for="map_select"></label>
@@ -13,12 +13,12 @@ I want to see specific details for <label for="map_select"></label>
     <option value = "map2">East Asia</option>
 </select>
 
-<p id='map_europe' align='center' style="display: none;" >
-<img src="images/Democracy_index_1.png" alt="map_europe"/>
+<p id='stop' align='center' style="display: none;" >
+<img src="hello" alt="mybad"/>
 </p>
 
-<p id='map_east_asia' align='center' style="display: none;" >
-<img src="images/Democracy_index_2.png" alt="map_asia"/>
+<p id='puzzle' align='center' style="display: none;" >
+<img src="puzzle.png" alt="urbad"/>
 </p>
 
 <br>
