@@ -18,7 +18,7 @@ Our first plot shows that there were more pageviews on Wikipedia during the pand
 
  <br>
 
-Although, there were no noticeable differences in the topics pre and post-covid, some subtopics had noticeable changes. Indeed, as shows our plot some subtopics wikipedia pages were much more visited during covid and inversely. STEM.Biology is a good example of this interest growth. In every country we studied, this subtopic had roughly a 20 % interest increase (taking into account that more people visited wikipedia pages during Covid). This makes sense as Covid is intricately linked with biology, thus covid raised interest in biology. A subtopic that we noticed received an interest decrease is Culture.Sports. Indeed, its interest decreased roughly by 20 % in every country. Again, this makes sense as most people were at home and didn’t have the opportunity to practice sport, thus it decreased their interest in sports during that period. In the following plot, we can see which subtopics received more attention and the ones that received less attention. AAAAAAA
+Although, there were no noticeable differences in the topics pre and post-covid, some subtopics had noticeable changes. Indeed, as shows our plot some subtopics wikipedia pages were much more visited during covid and inversely. STEM.Biology is a good example of this interest growth. In every country we studied, this subtopic had roughly a 20 % interest increase (taking into account that more people visited wikipedia pages during Covid). This makes sense as Covid is intricately linked with biology, thus covid raised interest in biology. A subtopic that we noticed received an interest decrease is Culture.Sports. Indeed, its interest decreased roughly by 20 % in every country. Again, this makes sense as most people were at home and didn’t have the opportunity to practice sport, thus it decreased their interest in sports during that period. In the following plot, we can see which subtopics received more attention and the ones that received less attention. IIIIIIIII
 
 <p align='center'>
 <img src="images/pre_post_covid/Proportion_of_pagviews_bef_after.png" />
@@ -86,7 +86,7 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 
 <br>
 
-<script src='javascript.js'></script>
+
 
 
 
@@ -102,6 +102,31 @@ While doing our analysis, we noticed that South Korea tends to stand aside in ce
 While all other countries perceived an increase in these categories, as they seeked for entertainment during the pandemic and the lockdown.
 
 PLOT OF KOREA
+
+I want to see the decrease for the following topic : <label for="map_select"></label>
+<select id="korea_selection" name="registration">
+    <option value = "select_region" selected="selected"> ---Select--- </option>
+    <option value = "m1">Entertainment</option>
+    <option value = "m2">Films</option>
+    <option value = "m3">Media</option>
+    
+</select>
+
+<p id='entertainment' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Entertainmentkorea.png" alt="map_asia"/>
+</p>
+
+<p id='films' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Filmskorea.png" alt="map_europe"/>
+</p>
+
+<p id='media' align='center' style="display: none;" >
+<img src="images/pre_post_covid/Mediakorea.png" alt="map_asia"/>
+</p>
+
+<br>
+
+<script src='javascript.js'></script>
 
 
 # Consistency in Country Clusters Based on Browsing Patterns Pre and Post-COVID
