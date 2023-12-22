@@ -34,7 +34,27 @@ As they are many topics, this plot is hardly readable. We thus mapped the sub-to
 
 In our exploration of pageview patterns, we applied seasonal decomposition to the global time series for each country, revealing essential components like trend, seasonality, and residual factors. Notably, the periodic patterns observed in the seasonal component plots underline weekly trends in Wikipedia pageviews for both mobile and desktop data, while the stable trend components indicate a consistent long-term behavior in pageview accesses, providing valuable insights into user engagement dynamics.
 
-Here are the seasonal decompositions for Denmark and Korea, as well as their respective periodograms for both Mobile and Desktop data. 
+Here are the seasonal decompositions for Denmark and Korea for both Mobile and Desktop Data:
+
+<p align='center'>
+<img src="images/seasonal/seasonal_dec_da.png" />
+</p>
+
+<p align='center'>
+<img src="images/seasonal/seasonal_dec_da.m.png" />
+</p>
+
+<p align='center'>
+<img src="images/seasonal/seasonal_dec_ko.png" />
+</p>
+
+<p align='center'>
+<img src="images/seasonal/seasonal_dec_ko.m.png" />
+</p>
+
+
+Here are their respective periodograms, also for both Mobile and Desktop data. Periodograms allow a finer analysis of the seasonality patterns. The weekly trends described above are best illustrated by the peak at fs/52 = 7 on the periodograms. This is the most dominant frequency (and therefore seasonality), as it has the greatest amplitude. This peak is visible for all countries, for both mobile and desktop page views.
+
 
 <p align='center'>
 <img src="images/periodogram/periodogram_da.png" />
@@ -51,6 +71,4 @@ Here are the seasonal decompositions for Denmark and Korea, as well as their res
 <p align='center'>
 <img src="images/periodogram/periodogram_ko.m.png" />
 </p>
-
-The weekly trends described above are best illustrated by the peak at fs/52 = 7 on the periodograms. This is the most dominant frequency (and therefore seasonality), as it has the greatest amplitude. This peak is visible for all countries, for both mobile and desktop page views.
 
