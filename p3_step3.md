@@ -45,19 +45,19 @@ Out of the 492 different combinations of language and topic, there were only abo
     <option value = "map_uai_corr">Uncertainty Avoidance Index</option>
 </select>
 
-<p id='map_idv_corr' align='center' style="display: block;" >
+<p id='idv_corr' align='center' style="display: block;" >
 <img src="images/hofstede/idv_correlation.png" alt="idv_correlation"/>
 </p>
 
-<p id='map_ivr_corr' align='center' style="display: none;" >
+<p id='ivr_corr' align='center' style="display: none;" >
 <img src="images/hofstede/ivr_correlation.png" alt="ivr_correlation"/>
 </p>
 
-<p id='map_ltowvs_corr' align='center' style="display: none;" >
+<p id='ltowvs_corr' align='center' style="display: none;" >
 <img src="images/hofstede/ltowvs_correlation.png" alt="ltowvs_correlation"/>
 </p>
 
-<p id='map_mas_corr' align='center' style="display: none;" >
+<p id='mas_corr' align='center' style="display: none;" >
 <img src="images/hofstede/mas_correlation.png" alt="mas_correlation"/>
 </p>
 
@@ -78,23 +78,23 @@ Out of the 492 different combinations of language and topic, there were only abo
     <option value="map_uai_covid">Uncertainty Avoidance Index</option>
 </select>
 
-<p id='map_idv_covid' align='center' style="display: block;">
+<p id='idv_covid' align='center' style="display: block;">
     <img src="images/hofstede/idv_covid.png" alt="idv_covid" />
 </p>
 
-<p id='map_ivr_covid' align='center' style="display: none;">
+<p id='ivr_covid' align='center' style="display: none;">
     <img src="images/hofstede/ivr_covid.png" alt="ivr_covid" />
 </p>
 
-<p id='map_ltowvs_covid' align='center' style="display: none;">
+<p id='ltowvs_covid' align='center' style="display: none;">
     <img src="images/hofstede/ltowvs_covid.png" alt="ltowvs_covid" />
 </p>
 
-<p id='map_mas_covid' align='center' style="display: none;">
+<p id='mas_covid' align='center' style="display: none;">
     <img src="images/hofstede/mas_covid.png" alt="mas_covid" />
 </p>
 
-<p id='map_uai_covid' align='center' style="display: none;">
+<p id='uai_covid' align='center' style="display: none;">
     <img src="images/hofstede/uai_covid.png" alt="uai_covid" />
 </p>
 
