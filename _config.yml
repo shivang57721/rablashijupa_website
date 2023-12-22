@@ -3,9 +3,7 @@ title: Rablashijupa Website
 description: Website for our ADA project
 show_downloads: True
 navigation:
-  - title: Introduction
-    url: Introduction
-  - title: Home
+  - title: General Analysis and Visualizations
     url: p3_step4
   - title: Timeseries Analysis
     url: p3_step1
@@ -13,5 +11,8 @@ navigation:
     url: p3_step3
   - title: Pre/During Covid Analysis
     url: p3_step2
+  - title: Correlation between Cultural Values and Technological Access
+    url: ICT
   - title: Conclusion
     url: Conclusion
+
