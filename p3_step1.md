@@ -22,7 +22,7 @@ First let's refresh ourselves with the absolute number of pageviews for each lan
 
 ## Total number of views per topic
 
-The same can be done with the total number of views for each topic independantly of the country. Country with a lot of views will be overpresented. The topic five topics are displayed as taken directly in the dataset. Topics with a `*` at the end, represents "metatopics", we then also pick the top 5 topics for single topics. Geography topics are discarded as well as most often countries look at their own country page. Geography pages will be reintroduced in the Hofstede correlation analysis as they give interesting insights.
+The same can be done with the total number of views for each topic independantly of the country. Country with a lot of views will be overpresented. The top 5 topics are displayed as taken directly in the dataset. Topics with a `*` at the end, represents "metatopics", we then also pick the top 5 topics for single topics. Geography topics are discarded as well as most often countries look at their own country page which also represent a large amount of pageviews. Geography pages will be reintroduced in the Hofstede correlation analysis later as they give interesting insights.
 
 | topic                            |   pageviews |
 |:---------------------------------|------------:|
@@ -42,7 +42,7 @@ The same can be done with the total number of views for each topic independantly
 
 ## Pageviews over the whole timeperiod
 
-First we have a look at the page views for a country over the timeperiod in the dataset. Each topic represents a separate timeseries. In this case, the mean and the variance is taken over the topics, the variance is shown in the error margin. Two plots are selected, one for Japan and Denmark.
+First we have a look at pageviews for a country taking the timeseries for each topic and averaging them. Here again topics with a lot of views will be overpresented but this already gives an idea. 
 
 One important observation is that we see very high spikes on specific dates. Instead of a sudden surge of interest, we hypothesize that is more likely due to automated processes. To overcome this, the easiest solution is to use log scaling. Another possibility that we use is to leverage an outlier detection algorithm available in the python scientific library.
 
@@ -65,7 +65,7 @@ The outlier detectoin is based on the Isolation Forest algorithm. From the resul
 
 ## Topics pageviews over the year
 
-Taking into account the outlier detection analysis, we can plot the timeseries for a few selected topics over the year. The timeseries are averaged weekly and the variance is shown with error bars. The timeseries are also standard normalized as we would like to compare between topics and we saw the certain topics receive much more attention.
+Taking into account the outlier detection analysis, we can plot the timeseries for a few selected topics over the year. The timeseries are averaged weekly and the variance is shown with error bars. The timeseries are also standard normalized as we would like to compare between topics and we saw the certain topics receive much more attention so a normalization is required.
 
 
     
@@ -96,14 +96,13 @@ Armed with all the timeseries for each topics and each country, we can correlate
 
 ## Clustering based on correlation scores
 
-These correlation scores based on trends could be interpred as affinity scores between countries. Based on that, we try to make a graph out of all the countries weighting the edge with the averaged affinity score for all topics. Then by a standard clustering algorithm, we try to see if countries can be clustered based on their page views patterns. Further, we will also try to cluster but taking into account the cultural affinity based on Hofstede dimensions.
+These correlation scores based on trends could be interpred as affinity scores between countries. Based on that, we try to make a graph out of all the countries weighting the edge with the averaged affinity score for all topics. Then by a standard clustering algorithm, we try to see if countries can be clustered based on their page views patterns. 
 
 
 ![png](images/timeseries/output_24_0.png)
     
 
-
-With the louvain algorithm and a resolution of 0.9 we get plausible clusters that reflect the intuitive clustering of countries. Sweden is its own cluster but this may be due to the partial mobile data gathered in that country. We omit it in the results.
+With the Louvain algorithm and a resolution of 0.9 we get plausible clusters that reflect the intuitive clustering of countries. Sweden is its own cluster but this may be due to the partial mobile data gathered in that country. We thus omit it in the final results.
 
 1. `no`, `da`, `fi`, `nl`, `de` : "Germanic countries"
 
@@ -111,6 +110,9 @@ With the louvain algorithm and a resolution of 0.9 we get plausible clusters tha
 
 3. `ko`, `ja` : "Far Eastern countries"
 
+The affinity is shown in blue for each edges. A stronger blue represents stronger affinity.
     
 ![png](images/timeseries/output_26_2.png)
+
+In the Pre/During Covid Analysis section, we will further try to cluster countries but also taking into account the Hofstede dimensions.
 
