@@ -1,6 +1,12 @@
 ## Timeseries analysis
 
-To further analyze the pageviews, we have to dive deeper into the temporality pageviews related to each topic. 
+To further analyze the pageviews, we have to dive deeper into the temporality pageviews related to each topic. We will extract the timeseries for each topic and country. 
+
+Then we proceed with:
+
+* Time series correlation for a selected topic between countries
+* Averaging of all topics to get a correlation matrix between countries, which we interpret as an adjancy matrix for a weighted graph 
+* Use of the Louvain algorithm to cluster the weighted graph.
 
 ## Total number of views per language
 
