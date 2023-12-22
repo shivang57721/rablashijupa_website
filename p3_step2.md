@@ -35,7 +35,7 @@ I want to see the increase for the following topic : <label for="map_select"></l
     <option value = "map5">Government and Politics</option>
 </select>
 
-<p id='biology' align='center' style="display: none;" >
+<p id='biology' align='center' style="display: block;" >
 <img src="images/pre_post_covid/STEMbiology.png" alt="map_asia"/>
 </p>
 
@@ -66,7 +66,7 @@ I want to see the decrease for the following topic : <label for="map_select"></l
     <option value = "mp4">Fashion</option>
 </select>
 
-<p id='sports' align='center' style="display: none;" >
+<p id='sports' align='center' style="display: block;" >
 <img src="images/pre_post_covid/Sport.png" alt="map_asia"/>
 </p>
 
@@ -106,7 +106,7 @@ I want to see the trens for the following topic : <label for="map_select"></labe
     <option value = "m3">Media</option>
 </select>
 
-<p id='entertainment' align='center' style="display: none;" >
+<p id='entertainment' align='center' style="display: block;" >
 <img src="images/pre_post_covid/Entertainmentkorea.png" alt="map_asia"/>
 </p>
 
@@ -137,7 +137,7 @@ I want to see the clusters for the following cultural aspect before COVID : <lab
     <option value = "mapp6">Uncertainty avoidance</option>
 </select>
 
-<p id='idv' align='center' style="display: none;" >
+<p id='idv' align='center' style="display: block;" >
 <img src="images/pre_post_covid/before_cluster/idv.png" alt="map_asia"/>
 </p>
 
@@ -173,7 +173,7 @@ I want to see the clusters for the following cultural aspect after COVID : <labe
     <option value = "mappp6">Uncertainty avoidance</option>
 </select>
 
-<p id='idv2' align='center' style="display: none;" >
+<p id='idv2' align='center' style="display: block;" >
 <img src="images/pre_post_covid/after_cluster/idv2.png" alt="map_asia"/>
 </p>
 
