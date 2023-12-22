@@ -27,7 +27,7 @@ This step aimed to explore cultural shifts during the COVID-19 pandemic by analy
 # Results
 ### T-test Analysis
 - Most topics exhibited significant changes in interest levels between pre-COVID and during-COVID periods, as determined by t-tests.
-<p id='idv_corr' align='center' style="display: block;" >
+<p id='t_test' align='center' style="display: block;" >
 <img src="images/hofstede/t_test.png" alt="t_test"/>
 </p>
 Out of the 492 different combinations of language and topic, there were only about 100 which had a p-value of greater than 0.05, indicating that in general there is a statistically significant difference between the pageviews pre-covid and during-covid.
@@ -62,7 +62,7 @@ Out of the 492 different combinations of language and topic, there were only abo
 </p>
 
 <p id='pdi_corr' align='center' style="display: none;" >
-<img src="images/hofstede/uai_correlation.png" alt="uai_correlation"/>
+<img src="images/hofstede/pdi_correlation.png" alt="pdi_correlation"/>
 </p>
 
 <p id='uai_corr' align='center' style="display: none;" >
