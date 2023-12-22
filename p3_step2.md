@@ -18,7 +18,7 @@ Our first plot shows that there were more pageviews on Wikipedia during the pand
 
  <br>
 
-Although, there were no noticeable differences in the topics pre and post-covid, some subtopics had noticeable changes. Indeed, as shows our plot some subtopics wikipedia pages were much more visited during covid and inversely. STEM.Biology is a good example of this interest growth. In every country we studied, this subtopic had roughly a 20 % interest increase (taking into account that more people visited wikipedia pages during Covid). This makes sense as Covid is intricately linked with biology, thus covid raised interest in biology. A subtopic that we noticed received an interest decrease is Culture.Sports. Indeed, its interest decreased roughly by 20 % in every country. Again, this makes sense as most people were at home and didn’t have the opportunity to practice sport, thus it decreased their interest in sports during that period. In the following plot, we can see which subtopics received more attention and the ones that received less attention. IIIIIIIII
+Although, there were no noticeable differences in the topics pre and post-covid, some subtopics had noticeable changes. Indeed, as shows our plot some subtopics wikipedia pages were much more visited during covid and inversely. STEM.Biology is a good example of this interest growth. In every country we studied, this subtopic had roughly a 20 % interest increase (taking into account that more people visited wikipedia pages during Covid). This makes sense as Covid is intricately linked with biology, thus covid raised interest in biology. A subtopic that we noticed received an interest decrease is Culture.Sports. Indeed, its interest decreased roughly by 20 % in every country. Again, this makes sense as most people were at home and didn’t have the opportunity to practice sport, thus it decreased their interest in sports during that period. In the following plot, we can see which subtopics received more attention and the ones that received less attention. 
 
 <p align='center'>
 <img src="images/pre_post_covid/Proportion_of_pagviews_bef_after.png" />
@@ -187,7 +187,7 @@ I want to see the clusters for the following cultural aspect after COVID : <labe
 </p>
 
 <p id='ltowvs2' align='center' style="display: none;" >
-<img src="images/pre_post_covid/after_cluster/ltowvs.png" alt="map_asia"/>
+<img src="images/pre_post_covid/after_cluster/ltowvs2.png" alt="map_asia"/>
 </p>
 
 <p id='mas2' align='center' style="display: none;" >
