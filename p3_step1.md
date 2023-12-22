@@ -2,7 +2,7 @@
 
 To further analyze the pageviews, we have to dive deeper into the temporality pageviews related to each topic. English is dropped even though it is by far the largest one but is also to little use for our data analysis as we try to analyze countries' culture and virtually any country is consulting the english wikipedia. `ca` which corresponds to Catalonia is dropped as it is only part of a country, and `tr` is dropped as the data is insufficient. This leaves us with the following countries:
 
-![worldmap-2.png](attachment:worldmap-2.png)
+![worldmap-2.png](images/timeseries/worldmap.png)
 
 
 ## Total number of views per language
