@@ -130,6 +130,8 @@ Out of the 492 different combinations of language and topic, there were only abo
     <img src="images/hofstede/uai_covid.png" alt="uai_covid" />
 </p>
 
+- Seemingly, each country reacted culturally to the COVID pandemic in its own unique way. However, we do notice broad trends that indicate, generally speaking, that the countries analyzed have become more indulgent, more long term oriented, more gender netural, and more uncertainty avoidant. 
+
 
 ## Limitations and Future Directions
 - Naturally, the reliance on Wikipedia pageview data presents many limitations in representing comprehensive cultural interests. Culture is a much more nuanced concept that cannot entirely be quantified or encapsulated by Wikipedia pageviews. 
