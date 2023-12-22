@@ -17,3 +17,13 @@ The Hofstede dimensions are defined as such by its original author:
 
 6. **Indulgence versus Restraint**, related to the gratification versus control of basic human desires related to enjoying life
 
+<p align='center'>
+<img src="images/wikivid.png" />
+</p>
+
+ <br>
+
+
+
+
+by RAyanBLAncheSHIvangJUlienPAolo
