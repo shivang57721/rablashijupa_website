@@ -1,3 +1,6 @@
+# Study on Wikipedia pageviews before and during Covid period
+## Introduction
+
 Since the dawn of time, humanity had to face his worst flaw ever: his dying thirst to knowledge. 
 
 Hofstede cultural dimensions model, originally published in the 1970s, is a key tool for understanding cultural differences among countries. 
