@@ -30,7 +30,7 @@ As they are many topics, this plot is hardly readable. We thus mapped the sub-to
 
  The proportion of pageviews for topics related to Culture or Geography is way more important than the proportion of pageviews for topics related to History & Society or Culture. This is overally true for all the languages studied. So we'll need to highlight the differences in sub-topics pageview trends between countries using other methods.
 
- # Seasonal Decomposition of pageview time series
+# Seasonal Decomposition of pageview time series
 
 In our exploration of pageview patterns, we applied seasonal decomposition to the global time series for each country, revealing essential components like trend, seasonality, and residual factors. Notably, the periodic patterns observed in the seasonal component plots underline weekly trends in Wikipedia pageviews for both mobile and desktop data, while the stable trend components indicate a consistent long-term behavior in pageview accesses, providing valuable insights into user engagement dynamics.
 
