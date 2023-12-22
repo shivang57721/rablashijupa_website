@@ -23,3 +23,8 @@ The Hofstede dimensions are defined as such by its original author:
 </p>
 
  <br>
+
+
+
+
+by RAyanBLAncheSHIvangJUlienPAolo
