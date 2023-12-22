@@ -22,7 +22,7 @@ As they are many topics, this plot is hardly readable. We thus mapped the sub-to
 - Culture
 
 <p align='center'>
-<img src="images/proportions_.png" />
+<img src="images/proportions_combined.png" />
 </p>
 
  <br>
@@ -77,8 +77,7 @@ Plese select a country to display the details :
     <option value = "Turkey (Mobile)">Turkey_Mobile</option>
 </select>
 
-<p id = "show_Catalonia_d" style="display: none;">
-<p>
+<p id="show_Catalonia_d" style="display: none;"></p>
 <h3><b>Catalonia Desktop</b></h3>
 <br>
 <br>
