@@ -3,11 +3,11 @@ title: Rablashijupa Website
 description: Website for our ADA project
 show_downloads: True
 navigation:
+  - title: Introduction
+    url: Introduction
   - title: Home
     url: p3_step4
-  - title: Example
-    url: example
-  - title: Pre_post Covid
+  - title: Pageviews and Hofstede dimensions
+    url: p3_step3
+  - title: Pre/During Covid Analysis
     url: p3_step2
-  - title: Step 3
-  - url: p3_step3
