@@ -16,7 +16,7 @@ document.getElementById('correlation_selection').addEventListener('change', func
         document.getElementById('uai_corr').style.display = 'none';
     }else if (selectedValue === 'map_ltowvs_corr') {
         document.getElementById('idv_corr').style.display = 'none';
-        document.getElementById('ivr2_corr').style.display = 'none';
+        document.getElementById('ivr_corr').style.display = 'none';
         document.getElementById('ltowvs_corr').style.display = 'block';
         document.getElementById('mas_corr').style.display = 'none';
         document.getElementById('pdi_corr').style.display = 'none';
