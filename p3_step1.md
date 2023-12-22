@@ -63,7 +63,7 @@ Another already interesting observation is that countries such as Japan see clea
 
 ## Detect outliers
 
-The outlier detectoin is based on the Isolation Forest algorithm. From the results, we see that it works well in isolating outliers shown in red. Some seemingly good points are also filtered but that is not a large concern for our analysis as it will simply skip these days.
+The outlier detection is based on the Isolation Forest algorithm. From the results, we see that it works well in isolating outliers shown in red. Some seemingly good points are also filtered but that is not a large concern for our analysis as it will simply skip these days.
 
 
 ![png](images/timeseries/output_13_0.png)
@@ -87,7 +87,7 @@ Taking into account the outlier detection analysis, we can plot the timeseries f
 
 ## Correlating trends
 
-Armed with all the timeseries for each topics and each country, we can correlates them with each other. First we pick a single topic and correlate the corresponding times series for each country with each other. For example, `Culture.Food and drink` and `Culture.Sports` gives the following correlation matrix for each country. A high correlation score would mean that trends happens at similar times for the countries. Negative score would mean that if one country receives a high interest rate, the other country would decrease the interest for that topic which is not common from the data we see. A value near zero means that trends happens in unrelated time points for the two countries.
+Armed with all the timeseries for each topics and each country, we can correlate them with each other. First we pick a single topic and correlate the corresponding times series for each country with each other. For example, `Culture.Food and drink` and `Culture.Sports` gives the following correlation matrix for each country. A high correlation score would mean that trends happens at similar times for the countries. Negative score would mean that if one country receives a high interest rate, the other country would decrease the interest for that topic which is not common from the data we see. A value near zero means that trends happens in unrelated time points for the two countries.
 
     
 ![png](images/timeseries/output_20_0.png)
