@@ -108,9 +108,11 @@ These correlation scores based on trends could be interpred as affinity scores b
 
 With the louvain algorithm and a resolution of 0.9 we get plausible clusters that reflect the intuitive clustering of countries. Sweden is its own cluster but this may be due to the partial mobile data gathered in that country. We omit it in the results.
 
-1) `no`, `da`, `fi`, `nl`, `de` : "Germanic countries"
-2) `it`, `sr`, `fr` : "Latin and Slavic countries"
-3) `ko`, `ja` : "Far Eastern countries"
+1. `no`, `da`, `fi`, `nl`, `de` : "Germanic countries"
+
+2. `it`, `sr`, `fr` : "Latin and Slavic countries"
+
+3. `ko`, `ja` : "Far Eastern countries"
 
     
 ![png](images/timeseries/output_26_2.png)
