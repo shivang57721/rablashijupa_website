@@ -61,6 +61,10 @@ Out of the 492 different combinations of language and topic, there were only abo
 <img src="images/hofstede/mas_correlation.png" alt="mas_correlation"/>
 </p>
 
+<p id='pdi_corr' align='center' style="display: none;" >
+<img src="images/hofstede/uai_correlation.png" alt="uai_correlation"/>
+</p>
+
 <p id='uai_corr' align='center' style="display: none;" >
 <img src="images/hofstede/uai_correlation.png" alt="uai_correlation"/>
 </p>
@@ -70,7 +74,7 @@ Out of the 492 different combinations of language and topic, there were only abo
 
 <label for="map_select"></label>
 <select id="covid_selection">
-    <option value="map_idv_covid" selected="selected">Individualism vs Collectivism</option>
+    <option value="map_idv_covid">Individualism vs Collectivism</option>
     <option value="map_ivr_covid">Indulgence vs Restraint</option>
     <option value="map_ltowvs_covid">Long Term vs Short Term Orientation</option>
     <option value="map_mas_covid">Masculinity vs Femininity</option>
@@ -92,6 +96,10 @@ Out of the 492 different combinations of language and topic, there were only abo
 
 <p id='mas_covid' align='center' style="display: none;">
     <img src="images/hofstede/mas_covid.png" alt="mas_covid" />
+</p>
+
+<p id='pdi_covid' align='center' style="display: none;">
+    <img src="images/hofstede/pdi_covid.png" alt="pdi_covid" />
 </p>
 
 <p id='uai_covid' align='center' style="display: none;">
