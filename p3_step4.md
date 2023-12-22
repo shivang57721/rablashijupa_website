@@ -31,7 +31,22 @@ As they are many topics, this plot is hardly readable. We thus mapped the sub-to
 
 When decomposing seasonally pageview patterns all topics combined, what strikes the most is that there are some weekly patterns in Wikipedia peageviews, for both mobile and desktop data:
 
-<html>
+
+<label for="map_select"></label>
+<select id="increase_selection" name="registration">
+    <option value = "select_region" selected="selected"> ---Select--- </option>
+    <option value = "map1">Biology</option>
+    <option value = "map2">Books</option>
+    <option value = "map3">Video games</option>
+    <option value = "map4">Internet Culture</option>
+    <option value = "map5">Government and Politics</option>
+</select>
+
+<p id='biology' align='center' style="display: none;" >
+<img src="images/pre_post_covid/STEMbiology.png" alt="map_asia"/>
+</p>
+
+
 Plese select a country to display the details :
 <label for="seasonality_select_country"></label>
 <select id="seasonality_selection_country" name="seasonality_country">
@@ -62,7 +77,7 @@ Plese select a country to display the details :
     <option value = "Turkey (Mobile)">Turkey_Mobile</option>
 </select>
 
-<section id = "show_Catalonia_d" style="display: none;">
+<p id = "show_Catalonia_d" style="display: none;">
 <p>
 <h3><b>Catalonia Desktop</b></h3>
 <br>
@@ -275,6 +290,3 @@ Plese select a country to display the details :
 <br>
 
 <script src='javascript_seaso.js'></script>
-
-</html>
-

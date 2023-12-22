@@ -1,4 +1,4 @@
-const register_c = document.querySelector("#seasonality_select_country");
+const register_c = document.querySelector("#seasonality_selection_country");
 
 register_c.addEventListener('change', (event) => {
   if (register_c.value === "Catalonia (Desktop)") {
