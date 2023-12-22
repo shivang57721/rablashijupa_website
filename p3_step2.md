@@ -1,4 +1,4 @@
-# Impact of COVID-19 on Wikipedia Pageviews: A Comparative Analysis" holaquepassa
+# Impact of COVID-19 on Wikipedia Pageviews: A Comparative Analysis" 
 
 In order to evaluate how much covid affected people’s interest, it is necessary to compare data before and during the pandemic. We therefore take the assumption that school closure's date for each country represents the beginning of the pandemic and consequently the lockdown. 
 
