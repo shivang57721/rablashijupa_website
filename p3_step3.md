@@ -37,31 +37,31 @@ Out of the 492 different combinations of language and topic, there were only abo
 - Strong correlations were found between specific topics and certain cultural dimensions, providing insights into how wikipedia pageviews can reveal information about culture.
 <label for="map_select"></label>
 <select id="correlation_selection">
-    <option value = "idv_corr" selected="selected">Individualism vs Collectivism</option>
-    <option value = "ivr_corr">Indulgence vs Restraint</option>
-    <option value = "ltowvs_corr">Long Term vs Short Term Orientation</option>
-    <option value = "mas_corr">Masculinity vs Femininity</option>
-    <option value = "pdi_corr">Power Distance Index</option>
-    <option value = "uai_corr">Uncertainty Avoidance Index</option>
+    <option value = "map_idv_corr" selected="selected">Individualism vs Collectivism</option>
+    <option value = "map_ivr_corr">Indulgence vs Restraint</option>
+    <option value = "map_ltowvs_corr">Long Term vs Short Term Orientation</option>
+    <option value = "map_mas_corr">Masculinity vs Femininity</option>
+    <option value = "map_pdi_corr">Power Distance Index</option>
+    <option value = "map_uai_corr">Uncertainty Avoidance Index</option>
 </select>
 
-<p id='idv_corr' align='center' style="display: block;" >
+<p id='map_idv_corr' align='center' style="display: block;" >
 <img src="images/hofstede/idv_correlation.png" alt="idv_correlation"/>
 </p>
 
-<p id='ivr_corr' align='center' style="display: none;" >
+<p id='map_ivr_corr' align='center' style="display: none;" >
 <img src="images/hofstede/ivr_correlation.png" alt="ivr_correlation"/>
 </p>
 
-<p id='ltowvs_corr' align='center' style="display: none;" >
+<p id='map_ltowvs_corr' align='center' style="display: none;" >
 <img src="images/hofstede/ltowvs_correlation.png" alt="ltowvs_correlation"/>
 </p>
 
-<p id='mas_corr' align='center' style="display: none;" >
+<p id='map_mas_corr' align='center' style="display: none;" >
 <img src="images/hofstede/mas_correlation.png" alt="mas_correlation"/>
 </p>
 
-<p id='uai_corr' align='center' style="display: none;" >
+<p id='map_uai_corr' align='center' style="display: none;" >
 <img src="images/hofstede/uai_correlation.png" alt="uai_correlation"/>
 </p>
 
@@ -70,31 +70,31 @@ Out of the 492 different combinations of language and topic, there were only abo
 
 <label for="map_select"></label>
 <select id="covid_selection">
-    <option value="idv_covid" selected="selected">Individualism vs Collectivism</option>
-    <option value="ivr_covid">Indulgence vs Restraint</option>
-    <option value="ltowvs_covid">Long Term vs Short Term Orientation</option>
-    <option value="mas_covid">Masculinity vs Femininity</option>
-    <option value="pdi_covid">Power Distance Index</option>
-    <option value="uai_covid">Uncertainty Avoidance Index</option>
+    <option value="map_idv_covid" selected="selected">Individualism vs Collectivism</option>
+    <option value="map_ivr_covid">Indulgence vs Restraint</option>
+    <option value="map_ltowvs_covid">Long Term vs Short Term Orientation</option>
+    <option value="map_mas_covid">Masculinity vs Femininity</option>
+    <option value="map_pdi_covid">Power Distance Index</option>
+    <option value="map_uai_covid">Uncertainty Avoidance Index</option>
 </select>
 
-<p id='idv_covid' align='center' style="display: block;">
+<p id='map_idv_covid' align='center' style="display: block;">
     <img src="images/hofstede/idv_covid.png" alt="idv_covid" />
 </p>
 
-<p id='ivr_covid' align='center' style="display: none;">
+<p id='map_ivr_covid' align='center' style="display: none;">
     <img src="images/hofstede/ivr_covid.png" alt="ivr_covid" />
 </p>
 
-<p id='ltowvs_covid' align='center' style="display: none;">
+<p id='map_ltowvs_covid' align='center' style="display: none;">
     <img src="images/hofstede/ltowvs_covid.png" alt="ltowvs_covid" />
 </p>
 
-<p id='mas_covid' align='center' style="display: none;">
+<p id='map_mas_covid' align='center' style="display: none;">
     <img src="images/hofstede/mas_covid.png" alt="mas_covid" />
 </p>
 
-<p id='uai_covid' align='center' style="display: none;">
+<p id='map_uai_covid' align='center' style="display: none;">
     <img src="images/hofstede/uai_covid.png" alt="uai_covid" />
 </p>
 
