@@ -28,7 +28,6 @@ Although, there were no noticeable differences in the topics pre and post-covid,
 
 I want to see the increase for the following topic : <label for="map_select"></label>
 <select id="increase_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "map1">Biology</option>
     <option value = "map2">Books</option>
     <option value = "map3">Video games</option>
@@ -61,7 +60,6 @@ I want to see the increase for the following topic : <label for="map_select"></l
 
 I want to see the decrease for the following topic : <label for="map_select"></label>
 <select id="decrease_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "mp1">Sports</option>
     <option value = "mp2">Education</option>
     <option value = "mp3">Engineering</option>
@@ -103,7 +101,6 @@ While all other countries perceived an increase in these categories, as they see
 
 I want to see the decrease for the following topic : <label for="map_select"></label>
 <select id="korea_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "m1">Entertainment</option>
     <option value = "m2">Films</option>
     <option value = "m3">Media</option>
@@ -132,7 +129,6 @@ We also implemented clusters based on the countries' browsing patterns pre and p
 
 I want to see the clusters for the following cultural aspect before COVID : <label for="map_select"></label>
 <select id="cluster_bef_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "mapp1">Individualism</option>
     <option value = "mapp2">Indulgence</option>
     <option value = "mapp3">Long-term orientation</option>
@@ -169,7 +165,6 @@ I want to see the clusters for the following cultural aspect before COVID : <lab
 
 I want to see the clusters for the following cultural aspect after COVID : <label for="map_select"></label>
 <select id="cluster_after_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "mappp1">Individualism</option>
     <option value = "mappp2">Indulgence</option>
     <option value = "mappp3">Long-term orientation</option>
