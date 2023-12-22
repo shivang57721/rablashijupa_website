@@ -211,3 +211,60 @@ document.getElementById('cluster_after_selection').addEventListener('change', fu
     }
 }); 
 
+document.getElementById('correlation_selection').addEventListener('change', function() {
+    var selectedValue = this.value;
+    
+    document.getElementById('idv_corr').style.display = 'none';
+    document.getElementById('ivr_corr').style.display = 'none';
+    document.getElementById('ltowvs_corr').style.display = 'none';
+    document.getElementById('mas_corr').style.display = 'none';
+    document.getElementById('pdi_corr').style.display = 'none';
+    document.getElementById('uai_corr').style.display = 'none';
+
+
+    if (selectedValue === 'idv_corr') {
+        document.getElementById('idv_corr').style.display = 'block';
+        document.getElementById('ivr_corr').style.display = 'none';
+        document.getElementById('ltowvs_corr').style.display = 'none';
+        document.getElementById('mas_corr').style.display = 'none';
+        document.getElementById('pdi_corr').style.display = 'none';
+        document.getElementById('uai_corr').style.display = 'none';
+    } else if (selectedValue === 'ivr_corr') {
+        document.getElementById('idv_corr').style.display = 'none';
+        document.getElementById('ivr_corr').style.display = 'block';
+        document.getElementById('ltowvs_corr').style.display = 'none';
+        document.getElementById('mas_corr').style.display = 'none';
+        document.getElementById('pdi_corr').style.display = 'none';
+        document.getElementById('uai_corr').style.display = 'none';
+        
+    } else if (selectedValue === 'ltowvs_corr') {
+        document.getElementById('idv_corr').style.display = 'none';
+        document.getElementById('ivr2_corr').style.display = 'none';
+        document.getElementById('ltowvs_corr').style.display = 'block';
+        document.getElementById('mas_corr').style.display = 'none';
+        document.getElementById('pdi_corr').style.display = 'none';
+        document.getElementById('uai_corr').style.display = 'none';
+    }else if (selectedValue === 'mas_corr') {
+        document.getElementById('idv_corr').style.display = 'none';
+        document.getElementById('ivr_corr').style.display = 'none';
+        document.getElementById('ltowvs_corr').style.display = 'none';
+        document.getElementById('mas_corr').style.display = 'block';
+        document.getElementById('pdi_corr').style.display = 'none';
+        document.getElementById('uai_corr').style.display = 'none';
+    }else if (selectedValue === 'pdi_corr') {
+        document.getElementById('idv_corr').style.display = 'none';
+        document.getElementById('ivr_corr').style.display = 'none';
+        document.getElementById('ltowvs_corr').style.display = 'none';
+        document.getElementById('mas_corr').style.display = 'none';
+        document.getElementById('pdi_corr').style.display = 'block';
+        document.getElementById('uai_corr').style.display = 'none';
+    }else if (selectedValue === 'uai_corr') {
+        document.getElementById('idv_corr').style.display = 'none';
+        document.getElementById('ivr_corr').style.display = 'none';
+        document.getElementById('ltowvs_corr').style.display = 'none';
+        document.getElementById('mas_corr').style.display = 'none';
+        document.getElementById('pdi_corr').style.display = 'none';
+        document.getElementById('uai_corr').style.display = 'block';
+    }
+}); 
+
