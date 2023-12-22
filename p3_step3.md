@@ -101,3 +101,5 @@ Out of the 492 different combinations of language and topic, there were only abo
 ## Limitations and Future Directions
 - Naturally, the reliance on Wikipedia pageview data presents many limitations in representing comprehensive cultural interests. Culture is a much more nuanced concept that cannot entirely be quantified or encapsulated by Wikipedia pageviews. 
 - Future research could incorporate additional datasets or longitudinal studies to validate and deepen the understanding of cultural shifts during global crises.
+
+<script src='javascript.js'></script>
