@@ -69,6 +69,30 @@ Out of the 492 different combinations of language and topic, there were only abo
 <img src="images/hofstede/uai_correlation.png" alt="uai_correlation"/>
 </p>
 
+### 'Individualism vs Collectivism' and Topic Correlations:
+- **'Culture.Media.Music' and 'Culture.Media.Entertainment'**: These topics often emphasize communal experiences, fostering collective emotions and shared cultural connections. Therefore, they might resonate strongly in societies valuing collectivism.
+- **'STEM.Computing' and 'STEM.Mathematics'**: STEM fields typically prioritize independent problem-solving and individual contributions, potentially aligning with societies valuing individualism over collectivism.
+
+### 'Indulgence vs Restraint' and Topic Correlations:
+- **'Culture.Food and Drink'**: Indulgence often associates with the enjoyment of sensory experiences, which aligns with the cultural appreciation of diverse and indulgent food and drink.
+- **'STEM.Computing'**: The correlation could be due to the disciplined and restrained nature of logical thinking and problem-solving in computing.
+
+### 'Long Term vs Short Term Orientation' and Topic Correlations:
+- **'STEM.Computing' and 'Culture.Internet Culture'**: Both may represent domains emphasizing innovation, adaptability, and a forward-thinking approach, aligning with long-term orientation.
+- **'Culture.Philosophy and Religion' and 'History and Society.Politics and Government'**: These areas often emphasize tradition, history, and long-standing values, aligning with a long-term orientation.
+
+### 'Masculinity vs Femininity' and Topic Correlations:
+- **'Culture.Visual Arts'**: Masculinity often correlates with assertiveness and bold expression, which could align with certain aspects of visual arts.
+- **'Culture.Media.Radio' and 'STEM.Biology'**: These topics might emphasize collaboration, emotional expression, and nurturing, which align less with traditional masculine values.
+
+### 'Power Distance Index' and Topic Correlations:
+- **'History and Society.History'**: Societies with higher power distance might value hierarchical structures and historical narratives that emphasize authority and leadership.
+- **'Culture.Food and Drink' and 'Culture.Media.Music'**: These topics often promote egalitarian and inclusive experiences, which may contrast with higher power distance societies.
+
+### 'Uncertainty Avoidance Index' and Topic Correlations:
+- **'STEM.Computing'**: Computing often involves systematic problem-solving and structured approaches, potentially appealing to societies aiming to minimize uncertainty.
+- **'Culture.Media.Radio' and 'Culture.Food and Drink'**: Radio and cultural expressions might embody spontaneity and flexibility, contrasting with the need to avoid uncertainty.
+
 ### Machine Learning Predictions
 - The Random Forest regression model predicted potential changes in Hofstede's cultural dimensions scores during the COVID-19 period based on shifts in interests indicated by Wikipedia pageviews.
 
