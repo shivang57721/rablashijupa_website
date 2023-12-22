@@ -69,27 +69,27 @@ Out of the 492 different combinations of language and topic, there were only abo
 <img src="images/hofstede/uai_correlation.png" alt="uai_correlation"/>
 </p>
 
-#### 'Individualism vs Collectivism' and Topic Correlations:
+#### Individualism vs Collectivism Index and Topic Correlations:
 - **'Culture.Media.Music' and 'Culture.Media.Entertainment'**: High correlation indicates that societies with a greater interest in music and entertainment may lean towards individualism, emphasizing personal expression and interests.
 - **'STEM.Computing' and 'STEM.Mathematics'**: The negative correlation suggests that interest in computing and mathematics aligns with collectivist societies, possibly indicating collaborative problem-solving and shared intellectual pursuits.
 
-### 'Indulgence vs Restraint' and Topic Correlations:
+#### Indulgence vs Restraint Index and Topic Correlations:
 - **'Culture.Food and Drink'**: A high correlation implies that societies with a strong interest in diverse culinary experiences might exhibit more indulgent cultural traits.
 - **'STEM.Computing'**: The negative correlation could suggest a restrained approach to logical thinking and problem-solving, aligning with more collectivist values.
 
-### 'Long Term vs Short Term Orientation' and Topic Correlations:
+#### Long Term vs Short Term Orientation Index and Topic Correlations:
 - **'STEM.Computing' and 'Culture.Internet Culture'**: Societies valuing long-term orientation may show interest in innovative technologies (like computing) and adaptable online cultures.
 - **'Culture.Philosophy and Religion' and 'History and Society.Politics and Government'**: The negative correlation suggests that these areas emphasizing tradition and immediate concerns align more with short-term orientation.
 
-### 'Masculinity vs Femininity' and Topic Correlations:
+#### Masculinity vs Femininity Index and Topic Correlations:
 - **'Culture.Visual Arts'**: High correlation suggests that aspects of visual arts might align with masculine traits, such as assertiveness or bold expression.
 - **'Culture.Media.Radio' and 'STEM.Biology'**: hese topics may emphasize nurturing, collaboration, and emotional expression, characteristics associated with feminine values, showing a negative correlation.
 
-### 'Power Distance Index' and Topic Correlations:
+#### Power Distance Index and Topic Correlations:
 - **'History and Society.History'**: The positive correlation indicates that societies valuing historical narratives might align with higher power distance, emphasizing authority and hierarchical structures.
 - **'Culture.Food and Drink' and 'Culture.Media.Music'**: Negative correlation implies that these areas might promote inclusive and egalitarian experiences, contrasting with higher power distance societies.
 
-### 'Uncertainty Avoidance Index' and Topic Correlations:
+#### Uncertainty Avoidance Index and Topic Correlations:
 - **'STEM.Computing'**: The positive correlation suggests that computing aligns with societies aiming to avoid uncertainty, possibly due to structured problem-solving approaches.
 - **'Culture.Media.Radio' and 'Culture.Food and Drink'**: Negative correlations imply that these areas might embody spontaneity and flexibility, contrasting with societies aiming to minimize uncertainty.
 
@@ -129,7 +129,6 @@ Out of the 492 different combinations of language and topic, there were only abo
 <p id='uai_covid' align='center' style="display: none;">
     <img src="images/hofstede/uai_covid.png" alt="uai_covid" />
 </p>
-
 
 
 ## Limitations and Future Directions
