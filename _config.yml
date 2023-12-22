@@ -7,3 +7,5 @@ navigation:
     url: p3_step4
   - title: Example
     url: test
+  - title: Step 3
+  - url: p3_step3
