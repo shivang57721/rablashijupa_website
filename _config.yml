@@ -3,6 +3,8 @@ title: Rablashijupa Website
 description: Website for our ADA project
 show_downloads: True
 navigation:
+  - title: Introduction
+    url: Introduction
   - title: Home
     url: p3_step4
   - title: Pageviews and Hofstede dimensions
