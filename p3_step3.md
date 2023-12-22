@@ -37,7 +37,7 @@ Out of the 492 different combinations of language and topic, there were only abo
 - Strong correlations were found between specific topics and certain cultural dimensions, providing insights into how wikipedia pageviews can reveal information about culture.
 <label for="map_select"></label>
 <select id="correlation_selection">
-    <option value = "map_idv_corr" selected="selected">Individualism vs Collectivism</option>
+    <option value = "map_idv_corr">Individualism vs Collectivism</option>
     <option value = "map_ivr_corr">Indulgence vs Restraint</option>
     <option value = "map_ltowvs_corr">Long Term vs Short Term Orientation</option>
     <option value = "map_mas_corr">Masculinity vs Femininity</option>
@@ -61,7 +61,7 @@ Out of the 492 different combinations of language and topic, there were only abo
 <img src="images/hofstede/mas_correlation.png" alt="mas_correlation"/>
 </p>
 
-<p id='map_uai_corr' align='center' style="display: none;" >
+<p id='uai_corr' align='center' style="display: none;" >
 <img src="images/hofstede/uai_correlation.png" alt="uai_correlation"/>
 </p>
 
@@ -102,4 +102,4 @@ Out of the 492 different combinations of language and topic, there were only abo
 - Naturally, the reliance on Wikipedia pageview data presents many limitations in representing comprehensive cultural interests. Culture is a much more nuanced concept that cannot entirely be quantified or encapsulated by Wikipedia pageviews. 
 - Future research could incorporate additional datasets or longitudinal studies to validate and deepen the understanding of cultural shifts during global crises.
 
-<script src='javascript.js'></script>
+<script src='step3_js.js'></script>
