@@ -16,3 +16,10 @@ The Hofstede dimensions are defined as such by its original author:
 5. **Long Term versus Short Term Orientation**, related to the choice of focus for people's efforts: the future or the present and past.
 
 6. **Indulgence versus Restraint**, related to the gratification versus control of basic human desires related to enjoying life
+
+
+<p align='center'>
+<img src="images/wikivid.png" />
+</p>
+
+ <br>
