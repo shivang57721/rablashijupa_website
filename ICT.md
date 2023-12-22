@@ -1,4 +1,3 @@
-
 ---
 layout: default
 ---
@@ -10,9 +9,9 @@ The aim of this step is to investigate the potential correlation between technol
 ## Data 
 
 3 different datasets were used: 
-1) ICT Access and Usage by Households and Individuals dataset
-2) Hofstede's dimensions dataset 
-3) Wikipedia Pageviews dataset: The median proportions of pageviews for each topic and language were calculated by considering the individual proportions for that specific topic and language.
+- ICT Access and Usage by Households and Individuals dataset
+- Hofstede's dimensions dataset 
+- Wikipedia Pageviews dataset: The median proportions of pageviews for each topic and language were calculated by considering the individual proportions for that specific topic and language.
 
 ## Mobile VS Desktop Analysis
 
@@ -89,8 +88,3 @@ The following table summarizes the clusters founds:
 
 - There is some consistency across the three clustering methods, especially with certain countries consistently grouped together (e.g., Denmark, Finland, Netherlands, Sweden in Cluster 0). This suggests that their ICT usage habits, Wikipedia pageview trends and Cultural Identity in the sense of Hofstede dimensions are all similar in a way. 
 - Differences exist, indicating that the clusters derived from each dataset might capture different aspects of the countries' characteristics. For many countries the potential correlation between ICT usage and cultural interests is less straightforward and cannot be deduced from this method. 
-
-
-```
-The final element.
-```
