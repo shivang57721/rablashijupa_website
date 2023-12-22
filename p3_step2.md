@@ -1,4 +1,4 @@
-# Impact of COVID-19 on Wikipedia Pageviews: A Comparative Analysis"
+# Impact of COVID-19 on Wikipedia Pageviews: A Comparative Analysis" 
 
 In order to evaluate how much covid affected people’s interest, it is necessary to compare data before and during the pandemic. We therefore take the assumption that school closure's date for each country represents the beginning of the pandemic and consequently the lockdown. 
 
@@ -18,7 +18,7 @@ Our first plot shows that there were more pageviews on Wikipedia during the pand
 
  <br>
 
-Although, there were no noticeable differences in the topics pre and post-covid, some subtopics had noticeable changes. Indeed, as shows our plot some subtopics wikipedia pages were much more visited during covid and inversely. STEM.Biology is a good example of this interest growth. In every country we studied, this subtopic had roughly a 20 % interest increase (taking into account that more people visited wikipedia pages during Covid). This makes sense as Covid is intricately linked with biology, thus covid raised interest in biology. A subtopic that we noticed received an interest decrease is Culture.Sports. Indeed, its interest decreased roughly by 20 % in every country. Again, this makes sense as most people were at home and didn’t have the opportunity to practice sport, thus it decreased their interest in sports during that period. In the following plot, we can see which subtopics received more attention and the ones that received less attention. IIIIIIIII
+Although, there were no noticeable differences in the topics pre and post-covid, some subtopics had noticeable changes. Indeed, as shows our plot some subtopics wikipedia pages were much more visited during covid and inversely. STEM.Biology is a good example of this interest growth. In every country we studied, this subtopic had roughly a 20 % interest increase (taking into account that more people visited wikipedia pages during Covid). This makes sense as Covid is intricately linked with biology, thus covid raised interest in biology. A subtopic that we noticed received an interest decrease is Culture.Sports. Indeed, its interest decreased roughly by 20 % in every country. Again, this makes sense as most people were at home and didn’t have the opportunity to practice sport, thus it decreased their interest in sports during that period. In the following plot, we can see which subtopics received more attention and the ones that received less attention. 
 
 <p align='center'>
 <img src="images/pre_post_covid/Proportion_of_pagviews_bef_after.png" />
@@ -28,7 +28,6 @@ Although, there were no noticeable differences in the topics pre and post-covid,
 
 I want to see the increase for the following topic : <label for="map_select"></label>
 <select id="increase_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "map1">Biology</option>
     <option value = "map2">Books</option>
     <option value = "map3">Video games</option>
@@ -36,7 +35,7 @@ I want to see the increase for the following topic : <label for="map_select"></l
     <option value = "map5">Government and Politics</option>
 </select>
 
-<p id='biology' align='center' style="display: none;" >
+<p id='biology' align='center' style="display: block;" >
 <img src="images/pre_post_covid/STEMbiology.png" alt="map_asia"/>
 </p>
 
@@ -61,14 +60,13 @@ I want to see the increase for the following topic : <label for="map_select"></l
 
 I want to see the decrease for the following topic : <label for="map_select"></label>
 <select id="decrease_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "mp1">Sports</option>
     <option value = "mp2">Education</option>
     <option value = "mp3">Engineering</option>
     <option value = "mp4">Fashion</option>
 </select>
 
-<p id='sports' align='center' style="display: none;" >
+<p id='sports' align='center' style="display: block;" >
 <img src="images/pre_post_covid/Sport.png" alt="map_asia"/>
 </p>
 
@@ -101,15 +99,14 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 While doing our analysis, we noticed that South Korea tends to stand aside in certain subtopics. In contrast to other countries,  South Korea shows less interest for “Entertainment”, “Films” and “Media” during the pandemic  according to our analysis. Taking into account that South Korea didn’t have much of an “imposed” lockdown, it would make sense that the population tried to focus as much as possible on their work during what was an “uncertain time”, thus it would explain their interest deccrease in these categories.
 While all other countries perceived an increase in these categories, as they seeked for entertainment during the pandemic and the lockdown.
 
-I want to see the decrease for the following topic : <label for="map_select"></label>
+I want to see the trends for the following topic : <label for="map_select"></label>
 <select id="korea_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "m1">Entertainment</option>
     <option value = "m2">Films</option>
     <option value = "m3">Media</option>
 </select>
 
-<p id='entertainment' align='center' style="display: none;" >
+<p id='entertainment' align='center' style="display: block;" >
 <img src="images/pre_post_covid/Entertainmentkorea.png" alt="map_asia"/>
 </p>
 
@@ -127,12 +124,11 @@ I want to see the decrease for the following topic : <label for="map_select"></l
 
 # Consistency in Country Clusters Based on Browsing Patterns Pre and Post-COVID
 
-We also implemented clusters based on the countries' browsing patterns pre and post-covid and their Hofstede score in the different cultaural aspects. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remained the same. HEYYYY
+We also implemented clusters based on the countries' browsing patterns pre and post-covid and their Hofstede score in the different cultaural aspects. We noticed that the clusters of countries remained the same in the two periods. Although some countries' interest changed during covid, it tended to change in the same direction as the cluster it belonged to. This explains why the clusters remained the same. 
 
 
 I want to see the clusters for the following cultural aspect before COVID : <label for="map_select"></label>
 <select id="cluster_bef_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "mapp1">Individualism</option>
     <option value = "mapp2">Indulgence</option>
     <option value = "mapp3">Long-term orientation</option>
@@ -141,7 +137,7 @@ I want to see the clusters for the following cultural aspect before COVID : <lab
     <option value = "mapp6">Uncertainty avoidance</option>
 </select>
 
-<p id='idv' align='center' style="display: none;" >
+<p id='idv' align='center' style="display: block;" >
 <img src="images/pre_post_covid/before_cluster/idv.png" alt="map_asia"/>
 </p>
 
@@ -167,9 +163,8 @@ I want to see the clusters for the following cultural aspect before COVID : <lab
 
 <br>
 
-I want to see the clusters for the following cultural aspect after COVID : <label for="map_select"></label>
+I want to see the clusters for the following cultural aspect during/after COVID : <label for="map_select"></label>
 <select id="cluster_after_selection" name="registration">
-    <option value = "select_region" selected="selected"> ---Select--- </option>
     <option value = "mappp1">Individualism</option>
     <option value = "mappp2">Indulgence</option>
     <option value = "mappp3">Long-term orientation</option>
@@ -178,7 +173,7 @@ I want to see the clusters for the following cultural aspect after COVID : <labe
     <option value = "mappp6">Uncertainty avoidance</option>
 </select>
 
-<p id='idv2' align='center' style="display: none;" >
+<p id='idv2' align='center' style="display: block;" >
 <img src="images/pre_post_covid/after_cluster/idv2.png" alt="map_asia"/>
 </p>
 
@@ -187,7 +182,7 @@ I want to see the clusters for the following cultural aspect after COVID : <labe
 </p>
 
 <p id='ltowvs2' align='center' style="display: none;" >
-<img src="images/pre_post_covid/after_cluster/ltowvs.png" alt="map_asia"/>
+<img src="images/pre_post_covid/after_cluster/ltowvs2.png" alt="map_asia"/>
 </p>
 
 <p id='mas2' align='center' style="display: none;" >
